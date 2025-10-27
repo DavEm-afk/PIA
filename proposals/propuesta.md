@@ -94,7 +94,7 @@ DFIR — Threat Detection / SOC support
 
 **Salidas esperadas**  
 - `/reporting/findings_iocs.json` (registro estructurado de hallazgos)  
-- `/reporting/executive_summary.md` (resumen humano inicial)  
+- `/reporting/executive_summary.md` 
 - `/logs/run_<timestamp>.log` (registro estructurado del análisis)
 
 **Descripción del procedimiento**  
@@ -156,11 +156,11 @@ Estructura del repositorio:
   - propuesta.md
 - /.gitignore
 
-**Outputs obligatorios (nombres y rutas sugeridos)**  
+**Outputs obligatorios**  
 - `/reporting/findings.json` o `/reporting/findings.csv`  
 - `/reporting/executive_summary.md`  
 - `/logs/run_<timestamp>.log`  
-- `/prompts/report_prompt_v1.txt` (prompt versionado)
+- `/prompts/report_prompt_v1.txt`
 
 ---
 
@@ -171,7 +171,7 @@ Estructura del repositorio:
   - Implementa y prueba los scripts PowerShell para recolección de artefactos  
   - Colabora en el wrapper de orquestación para invocar los módulos Python
 
-- **Integrante 2 — Análisis y Reporte**  
+- **Marcelo Hernandez Chavez — Análisis y Reporte**  
   - Responsable de `/src/analysis/`, `/src/integration/` y `/src/reporting/`  
   - Implementa cálculo de hashes, detectores de IoCs y la integración con OpenAI API  
   - Prepara `executive_summary.md` final y save prompts en `/prompts/`
@@ -180,7 +180,7 @@ Estructura del repositorio:
 
 ## Declaración ética y legal
 - El desarrollo y las pruebas se realizarán exclusivamente en entornos controlados y con datos sintéticos o con equipos autorizados por sus propietarios.  
-- No se utilizarán ni se subirán a GitHub claves privadas, credenciales reales ni información personal identificable (PII). Las claves para la OpenAI API se almacenarán mediante variables de entorno (p. ej. `OPENAI_API_KEY`) y **no** se versionarán en el repositorio.  
+- No se utilizarán ni se subirán a GitHub claves privadas, credenciales reales ni información personal identificable (PII). Las claves para la OpenAI API se almacenarán mediante variables de entorno (ej. `OPENAI_API_KEY`) y no se versionarán en el repositorio.  
 - Se documentará en `/docs/ethical_controls.md` el consentimiento, límites de prueba y las mitigaciones tomadas para evitar uso indebido.
 
 ---
