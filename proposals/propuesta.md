@@ -126,41 +126,41 @@ Python parsea los JSON de adquisición, calcula métricas (p. ej. procesos con c
 Estructura del repositorio:
 - /src
   - /acquisition
-      README.md
-      ps_acquire_system.ps1
+    - README.md
+    - ps_acquire_system.ps1
   - /analysis
-      README.md
-      hash_check.py
-      ioc_detector.py
-      config/
-      targets.json
-      iocs.json
+    - README.md
+    - hash_check.py
+    - ioc_detector.py
+    - config/
+    - targets.json
+    - iocs.json
   - /integration
-      README.md
-      orchestration.py # wrapper que orquesta PS ↔ Python y llamadas IA
+    - README.md
+    - orchestration.py # wrapper que orquesta PS ↔ Python y llamadas IA
   - /reporting
-      README.md
-      findings.csv
-      findings.json
-      executive_summary.md
+    - README.md
+    - findings.csv
+    - findings.json
+    - executive_summary.md
   - /utils
-      README.md
-      logger.py
+    - README.md
+    - logger.py
 - /scripts
-    run_pipeline.ps1
-    run_pipeline.sh
+  - run_pipeline.ps1
+  - run_pipeline.sh
   - /prompts
-    report_prompt_v1.txt
+  - report_prompt_v1.txt
 - /docs
-    ethical_controls.md
-    schema.md
+  - ethical_controls.md
+  - schema.md
 - /examples
-    anon_example_output.json
-    /tests
-      test_hash_check.py
-      README.md
+  - anon_example_output.json
+  - /tests
+    - test_hash_check.py
+    - README.md
 - /proposals
-    propuesta.md
+  - propuesta.md
 - /.gitignore
 
 **Outputs obligatorios (nombres y rutas sugeridos)**  
