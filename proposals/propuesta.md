@@ -1,30 +1,27 @@
-# Sistema de Análisis Forense Automatizado para Windows (SAFAW)
+# Sistema de Análisis Forense Automatizado para Windows
 
-## 1. Nombre representativo
-**Sistema de Análisis Forense Automatizado para Windows (SAFAW)**
+## Título
+**Sistema de Análisis Forense Automatizado para Windows**
 
-## 2. Descripción general del proyecto
-SAFAW es una solución académica para la recolección, análisis y documentación de evidencias en equipos con sistema operativo Windows. El proyecto integra scripts de PowerShell para la adquisición de artefactos del sistema y módulos en Python para el procesamiento, correlación y análisis de los datos recolectados. Finalmente, se utiliza la OpenAI API para enriquecer y redactar un informe forense profesional basado en los hallazgos.
+## Descripción general del proyecto
+Este proyecto es una solución sencilla para la recolección, análisis y documentación de evidencias en equipos con sistema operativo Windows. En el proyecto se integran scripts de PowerShell para la adquisición de artefactos propios del sistema y módulos en Python para el procesamiento, comparación y análisis de los datos obtenidos. Finalmente, se hace uso de OpenAI API para enriquecer y redactar un informe detallado usando como base los hallazgos recaudados con Python.
 
-El flujo general es: **Adquisición → Análisis / Correlación → Enriquecimiento con IA → Reporte**.
-
-## 3. Objetivo general
-Implementar un sistema básico, reproducible y ético de análisis forense en Windows que permita detectar indicadores de compromiso (IoCs), validar integridad de archivos y producir reportes formales asistidos por IA.
+El flujo planteado para este proyecto es el siguiente: **Adquisición → Análisis/Comparación → Uso de IA → Reporte.**
 
 ---
 
-## 4. Fichas técnicas de las tareas
+## Fichas técnicas de las tareas
 
-### Tarea 1 — Adquisición de artefactos forenses del sistema
-**Título y propósito (2–3 frases)**  
-Recolectar información relevante del sistema Windows (procesos activos, conexiones de red, eventos y registros) para generar una base de evidencias que pueda ser analizada con fines forenses y de respuesta a incidentes.
+### Tarea 1 — Adquisición de artefactos del sistema
+**Título y propósito**  
+Recolección de artefactos en el sistema Windows que sirvan para generar una base de evidencias que pueda ser analizado con fin a respuesta de incidentes.
 
 **Función / Rol**  
 DFIR — Evidence Acquisition
 
 **Entradas esperadas**  
 - Ninguna entrada externa requerida (colección local).  
-- Parámetros opcionales: lista de rutas a inspeccionar (JSON), rango temporal para logs (ISO 8601).
+- Parámetros opcionales: lista de rutas a inspeccionar (JSON), rango temporal para logs.
 
 **Salidas esperadas**  
 - `/src/acquisition/raw/process_list.json` (lista de procesos con metadata)  
@@ -32,7 +29,7 @@ DFIR — Evidence Acquisition
 - `/src/acquisition/raw/event_logs.evtx` o exportación en JSON `/src/acquisition/raw/event_logs.json`
 
 **Descripción del procedimiento**  
-Se ejecutan scripts PowerShell que: (1) enumeran procesos (`Get-Process`), (2) listan conexiones de red (`Get-NetTCPConnection`), (3) extraen eventos relevantes del Visor de Eventos (Sistema/Seguridad/Aplicación) y (4) listan servicios y tareas programadas. Las salidas se normalizan y guardan como JSON para su posterior análisis.
+Se ejecutan scripts PowerShell que: enumeran procesos (`Get-Process`), listan conexiones de red (`Get-NetTCPConnection`), extraen eventos relevantes del Visor de Eventos (Sistema/Seguridad/Aplicación) y listan servicios y tareas programadas. Las salidas se normalizan y guardan como JSON para su posterior análisis.
 
 **Complejidad técnica**  
 - Procesamiento/parsing de salidas (evtx → JSON)  
@@ -47,12 +44,11 @@ Se ejecutan scripts PowerShell que: (1) enumeran procesos (`Get-Process`), (2) l
 **Dependencias**  
 - PowerShell (Windows 10/11)  
 - Python 3.10+ (wrapper)  
-- Módulos opcionales: `evtx` (si se usa parsing de evtx), `python-dotenv` (para variables de entorno)
 
 ---
 
 ### Tarea 2 — Verificación de integridad de archivos mediante hashing
-**Título y propósito (2–3 frases)**  
+**Título y propósito**  
 Calcular y comparar hashes criptográficos (SHA-256) de archivos críticos para detectar modificaciones no autorizadas y conservar evidencia de integridad.
 
 **Función / Rol**  
@@ -81,13 +77,12 @@ PowerShell o Python enumeran los archivos objetivo; Python calcula SHA-256 para 
 
 **Dependencias**  
 - Python 3.10+ (`hashlib`, `pandas` recomendado)  
-- Opcional: `python-magic` para detección de tipo MIME
 
 ---
 
-### Tarea 3 — Detección de indicadores de compromiso (IoCs) y anomalías
-**Título y propósito (2–3 frases)**  
-Analizar los artefactos recolectados para identificar procesos, rutas o comportamientos que coincidan con IoCs conocidos o que presenten heurísticas de sospecha (p. ej. procesos sin firma, ejecución desde rutas temporales, conexiones remotas inusuales).
+### Tarea 3 — Detección de indicadores de compromiso y anomalías
+**Título y propósito**  
+Analizar los artefactos recolectados para identificar procesos, rutas o comportamientos que coincidan con indicadores conocidos o que presenten heurísticas de sospecha (ej. procesos sin firma, ejecución desde rutas temporales, conexiones remotas inusuales).
 
 **Función / Rol**  
 DFIR — Threat Detection / SOC support
@@ -103,12 +98,11 @@ DFIR — Threat Detection / SOC support
 - `/logs/run_<timestamp>.log` (registro estructurado del análisis)
 
 **Descripción del procedimiento**  
-Python parsea los JSON de adquisición, calcula métricas (p. ej. procesos con conexiones remotas, binarios sin firma, rutas atípicas), cruza con la lista de IoCs y con los resultados de hashing. Se priorizan hallazgos por severidad y se generan outputs estructurados para el reporte. Los hallazgos relevantes se guardan y se preparan para el prompt hacia la OpenAI API.
+Python parsea los JSON de adquisición, calcula métricas (ej. procesos con conexiones remotas, binarios sin firma, rutas atípicas), cruza con la lista de indicadores y con los resultados de hashing. Se priorizan hallazgos por severidad y se generan outputs estructurados para el reporte. Los hallazgos relevantes se guardan y se preparan para el prompt hacia la OpenAI API.
 
 **Complejidad técnica**  
 - Correlación entre múltiples fuentes (procesos + conexiones + hashes)  
 - Procesamiento y normalización de datos (pandas / re / json)  
-- Uso de librerías de redes o parsing si aplica
 
 **Controles éticos**  
 - El análisis se realiza sobre datos autorizados.  
@@ -118,7 +112,6 @@ Python parsea los JSON de adquisición, calcula métricas (p. ej. procesos con c
 **Dependencias**  
 - Python 3.10+ (`pandas`, `requests`, `python-dotenv`)  
 - OpenAI Python client (`openai`) para integración con la API  
-- Políticas de retry/backoff (implementadas con `tenacity` o lógica propia)
 
 ---
 
@@ -171,31 +164,28 @@ Estructura del repositorio:
 
 ---
 
-## 6. Asignación de roles del equipo
-(Distribución por módulos — opción A seleccionada)
+## Asignación de roles del equipo
 
-- **Integrante 1 — Adquisición & Orquestación (PowerShell / Pipeline)**  
+- **David Emiliano Rangel Tovar — Adquisición y Orquestación**  
   - Responsable de `/src/acquisition/` y `run_pipeline.ps1`  
   - Implementa y prueba los scripts PowerShell para recolección de artefactos  
   - Colabora en el wrapper de orquestación para invocar los módulos Python
 
-- **Integrante 2 — Análisis & Reporte (Python / IA)**  
+- **Integrante 2 — Análisis y Reporte**  
   - Responsable de `/src/analysis/`, `/src/integration/` y `/src/reporting/`  
   - Implementa cálculo de hashes, detectores de IoCs y la integración con OpenAI API  
   - Prepara `executive_summary.md` final y save prompts en `/prompts/`
 
-*Ambos integrantes realizarán commits periódicos y revisiones mutuas del código.*
-
 ---
 
-## 7. Declaración ética y legal
+## Declaración ética y legal
 - El desarrollo y las pruebas se realizarán exclusivamente en entornos controlados y con datos sintéticos o con equipos autorizados por sus propietarios.  
 - No se utilizarán ni se subirán a GitHub claves privadas, credenciales reales ni información personal identificable (PII). Las claves para la OpenAI API se almacenarán mediante variables de entorno (p. ej. `OPENAI_API_KEY`) y **no** se versionarán en el repositorio.  
 - Se documentará en `/docs/ethical_controls.md` el consentimiento, límites de prueba y las mitigaciones tomadas para evitar uso indebido.
 
 ---
 
-## 8. Dependencias y requisitos técnicos
+## Dependencias y requisitos técnicos
 **Python**  
 - Python 3.10+  
 - Dependencias sugeridas: `pandas`, `requests`, `openai`, `python-dotenv`, `tenacity` (o manejo propio de retries), `hashlib` (builtin)  
@@ -203,18 +193,10 @@ Estructura del repositorio:
 
 **PowerShell**  
 - PowerShell 5+ / PowerShell Core en Windows  
-- No se requieren módulos externos obligatorios, salvo si se decide usar librerías específicas para parsing de EVTX.
+- No se requieren módulos externos obligatorios.
 
 **Otras notas**  
 - Variable de entorno obligatoria: `OPENAI_API_KEY`  
 - Implementar retries y backoff en `/src/integration/orchestration.py` para llamadas a la API de OpenAI.  
 - Guardar prompts en `/prompts` y versionarlos.
 
----
-
-## 9. Evidencia de colaboración inicial
-Para este entregable, se incluirán en el repositorio evidencias mínimas de colaboración:
-
-- **Commits**: al menos 2 commits iniciales (uno por integrante) indicando tareas (p. ej. `init: estructura repo — user1`, `feat: add acquisition script — user2`).  
-- **Issue**: abrir 1 issue por tarea propuesta (p. ej. `Tarea: Adquisición — implementar ps_acquire_system.ps1`).  
-- **Pull Request / Review**: al menos 1 PR con revisión del compañero (aunque sea pequeño).
