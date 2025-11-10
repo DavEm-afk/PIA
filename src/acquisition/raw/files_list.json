@@ -1,0 +1,371 @@
+{
+    "FechaEjecucion":  {
+                           "value":  "\/Date(1762578178681)\/",
+                           "DisplayHint":  2,
+                           "DateTime":  "viernes, 7 de noviembre de 2025 11:02:58 p. m."
+                       },
+    "Usuario":  "Vohiy",
+    "TotalArchivos":  40,
+    "Archivos":  [
+                     {
+                         "Ruta":  "C:\\Users\\Vohiy\\Downloads\\19. Sustitución trigonométrica.pdf",
+                         "TamañoKB":  46.96,
+                         "ÚltimaModificación":  {
+                                                    "value":  "\/Date(1748043632240)\/",
+                                                    "DateTime":  "viernes, 23 de mayo de 2025 05:40:32 p. m."
+                                                },
+                         "HashSHA256":  "70B564B2C5696298CF0274BF8483C94880E89E4093EF87EEFA8E088D2A99B6C1"
+                     },
+                     {
+                         "Ruta":  "C:\\Users\\Vohiy\\Downloads\\3erP PC AD2025 (1).pdf",
+                         "TamañoKB":  4013.25,
+                         "ÚltimaModificación":  {
+                                                    "value":  "\/Date(1761627379375)\/",
+                                                    "DateTime":  "lunes, 27 de octubre de 2025 10:56:19 p. m."
+                                                },
+                         "HashSHA256":  "CA2DD1B3BA49D38BB9B2B46714B00077688C6A84AF5B17C06B976F2E05A528FD"
+                     },
+                     {
+                         "Ruta":  "C:\\Users\\Vohiy\\Downloads\\3erP PC AD2025.pdf",
+                         "TamañoKB":  4013.25,
+                         "ÚltimaModificación":  {
+                                                    "value":  "\/Date(1761595040145)\/",
+                                                    "DateTime":  "lunes, 27 de octubre de 2025 01:57:20 p. m."
+                                                },
+                         "HashSHA256":  "CA2DD1B3BA49D38BB9B2B46714B00077688C6A84AF5B17C06B976F2E05A528FD"
+                     },
+                     {
+                         "Ruta":  "C:\\Users\\Vohiy\\Downloads\\4. RESUMEN DE METODOS DE INTEGRACIÓN ED (1).pdf",
+                         "TamañoKB":  88.33,
+                         "ÚltimaModificación":  {
+                                                    "value":  "\/Date(1748576550196)\/",
+                                                    "DateTime":  "jueves, 29 de mayo de 2025 09:42:30 p. m."
+                                                },
+                         "HashSHA256":  "C1B4D013A1197E2263063D953B8DEBA05DD11D8CB16A6BF05B3F066743BDC27A"
+                     },
+                     {
+                         "Ruta":  "C:\\Users\\Vohiy\\Downloads\\4. RESUMEN DE METODOS DE INTEGRACIÓN ED.pdf",
+                         "TamañoKB":  88.33,
+                         "ÚltimaModificación":  {
+                                                    "value":  "\/Date(1748132008880)\/",
+                                                    "DateTime":  "sábado, 24 de mayo de 2025 06:13:28 p. m."
+                                                },
+                         "HashSHA256":  "C1B4D013A1197E2263063D953B8DEBA05DD11D8CB16A6BF05B3F066743BDC27A"
+                     },
+                     {
+                         "Ruta":  "C:\\Users\\Vohiy\\Downloads\\Activos_20250826_105939_0000.pdf",
+                         "TamañoKB":  5689.9,
+                         "ÚltimaModificación":  {
+                                                    "value":  "\/Date(1758168644488)\/",
+                                                    "DateTime":  "miércoles, 17 de septiembre de 2025 10:10:44 p. m."
+                                                },
+                         "HashSHA256":  "A8CC29AD508A46547B50E6FC8B414364076817CAF24CC75AB70D55FA872EE024"
+                     },
+                     {
+                         "Ruta":  "C:\\Users\\Vohiy\\Downloads\\AlmaLinux-9.6-x86_64-minimal.iso",
+                         "TamañoKB":  2279424,
+                         "ÚltimaModificación":  {
+                                                    "value":  "\/Date(1759028175956)\/",
+                                                    "DateTime":  "sábado, 27 de septiembre de 2025 08:56:15 p. m."
+                                                },
+                         "HashSHA256":  "27A346C74D8755516A4AD2057EA29C2450454F1A928628734F26E12B0B8120D7"
+                     },
+                     {
+                         "Ruta":  "C:\\Users\\Vohiy\\Downloads\\Capitulo 3 - Compliance Mod.pptx",
+                         "TamañoKB":  17195.57,
+                         "ÚltimaModificación":  {
+                                                    "value":  "\/Date(1758168546027)\/",
+                                                    "DateTime":  "miércoles, 17 de septiembre de 2025 10:09:06 p. m."
+                                                },
+                         "HashSHA256":  "57FE2998311E36F6050FE84764DD29059324CD27935CBC1DF7F729882951A8B4"
+                     },
+                     {
+                         "Ruta":  "C:\\Users\\Vohiy\\Downloads\\Capitulo 4 - Frameworks.pptx",
+                         "TamañoKB":  3298.14,
+                         "ÚltimaModificación":  {
+                                                    "value":  "\/Date(1758168632736)\/",
+                                                    "DateTime":  "miércoles, 17 de septiembre de 2025 10:10:32 p. m."
+                                                },
+                         "HashSHA256":  "99E13B6680249CB222F6C9991E4A1F6B76A57BF0F4FA3DF4A2138508CA112BE1"
+                     },
+                     {
+                         "Ruta":  "C:\\Users\\Vohiy\\Downloads\\Capitulo 6 - Data Security.pdf",
+                         "TamañoKB":  25327.4,
+                         "ÚltimaModificación":  {
+                                                    "value":  "\/Date(1758168662782)\/",
+                                                    "DateTime":  "miércoles, 17 de septiembre de 2025 10:11:02 p. m."
+                                                },
+                         "HashSHA256":  "C4CF296B116C34FAEA0CD3921E750B3A16DE2250BB9BA2887E4C4910183C14EC"
+                     },
+                     {
+                         "Ruta":  "C:\\Users\\Vohiy\\Downloads\\ChromeSetup.exe",
+                         "TamañoKB":  11845.38,
+                         "ÚltimaModificación":  {
+                                                    "value":  "\/Date(1737941489959)\/",
+                                                    "DateTime":  "domingo, 26 de enero de 2025 07:31:29 p. m."
+                                                },
+                         "HashSHA256":  "C91C2BF1B113E926B96AD8200E44B7BC121C1801C63C91159ADE2A194537F9F4"
+                     },
+                     {
+                         "Ruta":  "C:\\Users\\Vohiy\\Downloads\\CISSP ALL-IN-ONE-9e.pdf",
+                         "TamañoKB":  90529.5,
+                         "ÚltimaModificación":  {
+                                                    "value":  "\/Date(1754969469589)\/",
+                                                    "DateTime":  "lunes, 11 de agosto de 2025 09:31:09 p. m."
+                                                },
+                         "HashSHA256":  "96F008E95E5DC9556E3DACE35F5B56B6279CCB2A388F52B2B40F3DCE2C7898F6"
+                     },
+                     {
+                         "Ruta":  "C:\\Users\\Vohiy\\Downloads\\Cute Cow Wallpaper.jfif",
+                         "TamañoKB":  83.85,
+                         "ÚltimaModificación":  {
+                                                    "value":  "\/Date(1738119104550)\/",
+                                                    "DateTime":  "martes, 28 de enero de 2025 08:51:44 p. m."
+                                                },
+                         "HashSHA256":  "7B4F0F58BB0E99F566325D365B4A4D9D87238C7D7558D23F6FB2201BEEDDFB10"
+                     },
+                     {
+                         "Ruta":  "C:\\Users\\Vohiy\\Downloads\\fwr-1.2-build.exe",
+                         "TamañoKB":  591601.72,
+                         "ÚltimaModificación":  {
+                                                    "value":  "\/Date(1748826386645)\/",
+                                                    "DateTime":  "domingo, 1 de junio de 2025 07:06:26 p. m."
+                                                },
+                         "HashSHA256":  "A5EF524072498CD895990BAB0A7AEED91672E787EF8A43C0912DFBB31655D801"
+                     },
+                     {
+                         "Ruta":  "C:\\Users\\Vohiy\\Downloads\\GitHubDesktopSetup-x64.exe",
+                         "TamañoKB":  173091.46,
+                         "ÚltimaModificación":  {
+                                                    "value":  "\/Date(1755659785787)\/",
+                                                    "DateTime":  "martes, 19 de agosto de 2025 09:16:25 p. m."
+                                                },
+                         "HashSHA256":  "16319E849C9CC340680DF2FBCE16CA23E13E3836177CD7DC47A391F071C23E04"
+                     },
+                     {
+                         "Ruta":  "C:\\Users\\Vohiy\\Downloads\\INTEGRALES POR TECNICAS DE INTEGRACIÓN.pdf",
+                         "TamañoKB":  273.98,
+                         "ÚltimaModificación":  {
+                                                    "value":  "\/Date(1748043638831)\/",
+                                                    "DateTime":  "viernes, 23 de mayo de 2025 05:40:38 p. m."
+                                                },
+                         "HashSHA256":  "1DD3640927118A04261E848F5E8A168F2B6FCA57DF43FA70F21899E3A0D7406C"
+                     },
+                     {
+                         "Ruta":  "C:\\Users\\Vohiy\\Downloads\\LFS_10.1.ova",
+                         "TamañoKB":  4969857,
+                         "ÚltimaModificación":  {
+                                                    "value":  "\/Date(1762107943580)\/",
+                                                    "DateTime":  "domingo, 2 de noviembre de 2025 12:25:43 p. m."
+                                                },
+                         "HashSHA256":  "C82BDCB8EA110403DC8AAE7ECDFA3590813D390A6807AE764E3042D4F3C16AAE"
+                     },
+                     {
+                         "Ruta":  "C:\\Users\\Vohiy\\Downloads\\MATEMÁTICAS DISCRETAS TEMARIO.pdf",
+                         "TamañoKB":  39.05,
+                         "ÚltimaModificación":  {
+                                                    "value":  "\/Date(1759803912389)\/",
+                                                    "DateTime":  "lunes, 6 de octubre de 2025 08:25:12 p. m."
+                                                },
+                         "HashSHA256":  "93C57C28F3C520C7E0073F9F3CBD77BE7F61F5D67C024A57C802D56749938949"
+                     },
+                     {
+                         "Ruta":  "C:\\Users\\Vohiy\\Downloads\\MD-Cap3 1.pdf",
+                         "TamañoKB":  3021.33,
+                         "ÚltimaModificación":  {
+                                                    "value":  "\/Date(1758844080551)\/",
+                                                    "DateTime":  "jueves, 25 de septiembre de 2025 05:48:00 p. m."
+                                                },
+                         "HashSHA256":  "1990969F3FB9071D4B6496AC65A5B207D728A264BC835AB1697A15A615E1D006"
+                     },
+                     {
+                         "Ruta":  "C:\\Users\\Vohiy\\Downloads\\MD-Cap4 1.pdf",
+                         "TamañoKB":  620.49,
+                         "ÚltimaModificación":  {
+                                                    "value":  "\/Date(1758844109877)\/",
+                                                    "DateTime":  "jueves, 25 de septiembre de 2025 05:48:29 p. m."
+                                                },
+                         "HashSHA256":  "348D5FA001FC3346C3F2E220CA51C675C7FB19F62D97253F1D70FCB99230129B"
+                     },
+                     {
+                         "Ruta":  "C:\\Users\\Vohiy\\Downloads\\MSTeamsSetup.exe",
+                         "TamañoKB":  1417.62,
+                         "ÚltimaModificación":  {
+                                                    "value":  "\/Date(1737942369281)\/",
+                                                    "DateTime":  "domingo, 26 de enero de 2025 07:46:09 p. m."
+                                                },
+                         "HashSHA256":  "C8DB62BED2305B35860BA601C926F664DA5C49CB58DB6E364F0ED2805AF511F0"
+                     },
+                     {
+                         "Ruta":  "C:\\Users\\Vohiy\\Downloads\\Notion Setup 4.17.0.exe",
+                         "TamañoKB":  85313.82,
+                         "ÚltimaModificación":  {
+                                                    "value":  "\/Date(1755655889783)\/",
+                                                    "DateTime":  "martes, 19 de agosto de 2025 08:11:29 p. m."
+                                                },
+                         "HashSHA256":  "E615F251AAF54E8E49BCA6321834A52BD4135D09034A8CC6E9C51EDD94DFBB25"
+                     },
+                     {
+                         "Ruta":  "C:\\Users\\Vohiy\\Downloads\\Oracle_VirtualBox_Extension_Pack-7.2.4.vbox-extpack",
+                         "TamañoKB":  22238.04,
+                         "ÚltimaModificación":  {
+                                                    "value":  "\/Date(1762104359411)\/",
+                                                    "DateTime":  "domingo, 2 de noviembre de 2025 11:25:59 a. m."
+                                                },
+                         "HashSHA256":  "B80EE54252442EC025D6A7B2B9C3F32526AB5C2D91A0FFA2385BE3ED83BCFF0B"
+                     },
+                     {
+                         "Ruta":  "C:\\Users\\Vohiy\\Downloads\\PROBLEMARIO DE CÁLCULO INTEGRAL.pdf",
+                         "TamañoKB":  112.71,
+                         "ÚltimaModificación":  {
+                                                    "value":  "\/Date(1748043641762)\/",
+                                                    "DateTime":  "viernes, 23 de mayo de 2025 05:40:41 p. m."
+                                                },
+                         "HashSHA256":  "8559FA154421971F29EED51E8ED14F40B1BC8469D65A4F0B369FF444EF48FD90"
+                     },
+                     {
+                         "Ruta":  "C:\\Users\\Vohiy\\Downloads\\python-3.11.0-amd64.exe",
+                         "TamañoKB":  24567.79,
+                         "ÚltimaModificación":  {
+                                                    "value":  "\/Date(1760244318373)\/",
+                                                    "DateTime":  "sábado, 11 de octubre de 2025 10:45:18 p. m."
+                                                },
+                         "HashSHA256":  "B5884FA3F05F88BBB617D08584930770C00BBCF675F2865A9161C2358829B605"
+                     },
+                     {
+                         "Ruta":  "C:\\Users\\Vohiy\\Downloads\\python-3.13.1-amd64.exe",
+                         "TamañoKB":  28015.91,
+                         "ÚltimaModificación":  {
+                                                    "value":  "\/Date(1737942355346)\/",
+                                                    "DateTime":  "domingo, 26 de enero de 2025 07:45:55 p. m."
+                                                },
+                         "HashSHA256":  "6B33FA9A439A86F553F9F60E538CCABC857D2F308BC77C477C04A46552ADE81F"
+                     },
+                     {
+                         "Ruta":  "C:\\Users\\Vohiy\\Downloads\\RobloxPlayerInstaller.exe",
+                         "TamañoKB":  7882.39,
+                         "ÚltimaModificación":  {
+                                                    "value":  "\/Date(1745112630629)\/",
+                                                    "DateTime":  "sábado, 19 de abril de 2025 07:30:30 p. m."
+                                                },
+                         "HashSHA256":  "74927186EE6C568DB1265FC265C661D9D02289100B5577AAEC30CA5E517C6531"
+                     },
+                     {
+                         "Ruta":  "C:\\Users\\Vohiy\\Downloads\\rustup-init (1).exe",
+                         "TamañoKB":  13234,
+                         "ÚltimaModificación":  {
+                                                    "value":  "\/Date(1761753373976)\/",
+                                                    "DateTime":  "miércoles, 29 de octubre de 2025 09:56:13 a. m."
+                                                },
+                         "HashSHA256":  "88D8258DCF6AE4F7A80C7D1088E1F36FA7025A1CFD1343731B4EE6F385121FC0"
+                     },
+                     {
+                         "Ruta":  "C:\\Users\\Vohiy\\Downloads\\rustup-init.exe",
+                         "TamañoKB":  13234,
+                         "ÚltimaModificación":  {
+                                                    "value":  "\/Date(1761753349781)\/",
+                                                    "DateTime":  "miércoles, 29 de octubre de 2025 09:55:49 a. m."
+                                                },
+                         "HashSHA256":  "88D8258DCF6AE4F7A80C7D1088E1F36FA7025A1CFD1343731B4EE6F385121FC0"
+                     },
+                     {
+                         "Ruta":  "C:\\Users\\Vohiy\\Downloads\\SteamSetup.exe",
+                         "TamañoKB":  2325,
+                         "ÚltimaModificación":  {
+                                                    "value":  "\/Date(1738117765213)\/",
+                                                    "DateTime":  "martes, 28 de enero de 2025 08:29:25 p. m."
+                                                },
+                         "HashSHA256":  "7D3654531C32D941B8CAE81C4137FC542172BFA9635F169CB392F245A0A12BCB"
+                     },
+                     {
+                         "Ruta":  "C:\\Users\\Vohiy\\Downloads\\ubuntu-18.04.5-desktop-amd64.iso",
+                         "TamañoKB":  2142112,
+                         "ÚltimaModificación":  {
+                                                    "value":  "\/Date(1762109870350)\/",
+                                                    "DateTime":  "domingo, 2 de noviembre de 2025 12:57:50 p. m."
+                                                },
+                         "HashSHA256":  "F295570BADB09A606D97DDFC3421D7BF210B4A81C07BA81E9C040EDA6DDEA6A0"
+                     },
+                     {
+                         "Ruta":  "C:\\Users\\Vohiy\\Downloads\\VirtualBox-7.2.4-170995-Win.exe",
+                         "TamañoKB":  172352.1,
+                         "ÚltimaModificación":  {
+                                                    "value":  "\/Date(1762104345533)\/",
+                                                    "DateTime":  "domingo, 2 de noviembre de 2025 11:25:45 a. m."
+                                                },
+                         "HashSHA256":  "22988BE9792F39C8E07068504612BD83AAE8F8317E2AAF7515079F5CD9421675"
+                     },
+                     {
+                         "Ruta":  "C:\\Users\\Vohiy\\Downloads\\Vivaldi.7.3.3635.11.x64.exe",
+                         "TamañoKB":  126111.11,
+                         "ÚltimaModificación":  {
+                                                    "value":  "\/Date(1746246120855)\/",
+                                                    "DateTime":  "viernes, 2 de mayo de 2025 10:22:00 p. m."
+                                                },
+                         "HashSHA256":  "9E01E74E72A839BA2702E77E245142C6CDA8AE3A871FD607F0A0A2D69F136187"
+                     },
+                     {
+                         "Ruta":  "C:\\Users\\Vohiy\\Downloads\\vivaldi.exe",
+                         "TamañoKB":  3037.61,
+                         "ÚltimaModificación":  {
+                                                    "value":  "\/Date(1746251087858)\/",
+                                                    "DateTime":  "viernes, 2 de mayo de 2025 11:44:47 p. m."
+                                                },
+                         "HashSHA256":  "8AED0E8F13B86EB18EF2569285F5E1B88D1FA04ACBEAD1F1BB39DE15E75E0F01"
+                     },
+                     {
+                         "Ruta":  "C:\\Users\\Vohiy\\Downloads\\VSCodeUserSetup-x64-1.96.4.exe",
+                         "TamañoKB":  102500.02,
+                         "ÚltimaModificación":  {
+                                                    "value":  "\/Date(1737942609891)\/",
+                                                    "DateTime":  "domingo, 26 de enero de 2025 07:50:09 p. m."
+                                                },
+                         "HashSHA256":  "62ECE2A5BB11200FFC4FA52E70090453684702CBCAB364AD91D340F83F80C89E"
+                     },
+                     {
+                         "Ruta":  "C:\\Users\\Vohiy\\Downloads\\WhatsApp Image 2025-09-03 at 22.28.18.jpeg",
+                         "TamañoKB":  110.74,
+                         "ÚltimaModificación":  {
+                                                    "value":  "\/Date(1756960422460)\/",
+                                                    "DateTime":  "miércoles, 3 de septiembre de 2025 10:33:42 p. m."
+                                                },
+                         "HashSHA256":  "525C0F83A764B957DC13E064AA9113718444D34C7736B2EE152A4ECD336966FC"
+                     },
+                     {
+                         "Ruta":  "C:\\Users\\Vohiy\\Downloads\\WhatsApp Installer.exe",
+                         "TamañoKB":  1070.53,
+                         "ÚltimaModificación":  {
+                                                    "value":  "\/Date(1744697244470)\/",
+                                                    "DateTime":  "martes, 15 de abril de 2025 12:07:24 a. m."
+                                                },
+                         "HashSHA256":  "98FD66FA8A58DD9029E03FDFC2C364FB9A214A9637C4B044EFAFDF2FE1E66667"
+                     },
+                     {
+                         "Ruta":  "C:\\Users\\Vohiy\\Downloads\\work34.zip",
+                         "TamañoKB":  2.92,
+                         "ÚltimaModificación":  {
+                                                    "value":  "\/Date(1760153016639)\/",
+                                                    "DateTime":  "viernes, 10 de octubre de 2025 09:23:36 p. m."
+                                                },
+                         "HashSHA256":  "BC9B25C222503D56C6A80F5177C1BE3E3B55226EDE628CB4BFCC87D48C0A5093"
+                     },
+                     {
+                         "Ruta":  "C:\\Users\\Vohiy\\Downloads\\Localisation\\es.txt",
+                         "TamañoKB":  100.12,
+                         "ÚltimaModificación":  {
+                                                    "value":  "\/Date(1738907141231)\/",
+                                                    "DateTime":  "jueves, 6 de febrero de 2025 11:45:41 p. m."
+                                                },
+                         "HashSHA256":  "646CE53AF8D15903C6CC395C66BA803149D8F0F877892A596BB744EE11D42C35"
+                     },
+                     {
+                         "Ruta":  "C:\\Users\\Vohiy\\Downloads\\Phone Link\\Avance_1.pdf",
+                         "TamañoKB":  170.31,
+                         "ÚltimaModificación":  {
+                                                    "value":  "\/Date(1761017469308)\/",
+                                                    "DateTime":  "lunes, 20 de octubre de 2025 09:31:09 p. m."
+                                                },
+                         "HashSHA256":  "A1F9E4E5E38FE25C57E2F60C3EA9ABE88EC51EFFBB0C46EF7281AA68724A5C4C"
+                     }
+                 ]
+}
