@@ -1,0 +1,38 @@
+
+    "FechaEjecucion":  {
+                           "value":  "\/Date(1762578178681)\/",
+                           "DisplayHint":  2,
+                           "DateTime":  "viernes, 7 de noviembre de 2025 11:02:58 p. m."
+                       },
+    "Usuario":  "---",
+    "TotalArchivos":  40,
+    "Archivos":  [
+                     {
+                         "Ruta":  "C:\\Users\\---\\Downloads\\19. Sustitución trigonométrica.pdf",
+                         "TamañoKB":  46.96,
+                         "ÚltimaModificación":  {
+                                                    "value":  "\/Date(1748043632240)\/",
+                                                    "DateTime":  "viernes, 23 de mayo de 2025 05:40:32 p. m."
+                                                },
+                         "HashSHA256":  "70B564B2C5696298CF0274BF8483C94880E89E4093EF87EEFA8E088D2A99B6C1"
+                     },
+                     {
+                         "Ruta":  "C:\\Users\\---\\Downloads\\3erP PC AD2025 (1).pdf",
+                         "TamañoKB":  4013.25,
+                         "ÚltimaModificación":  {
+                                                    "value":  "\/Date(1761627379375)\/",
+                                                    "DateTime":  "lunes, 27 de octubre de 2025 10:56:19 p. m."
+                                                },
+                         "HashSHA256":  "CA2DD1B3BA49D38BB9B2B46714B00077688C6A84AF5B17C06B976F2E05A528FD"
+                     },
+                     {
+                         "Ruta":  "C:\\Users\\---\\Downloads\\3erP PC AD2025.pdf",
+                         "TamañoKB":  4013.25,
+                         "ÚltimaModificación":  {
+                                                    "value":  "\/Date(1761595040145)\/",
+                                                    "DateTime":  "lunes, 27 de octubre de 2025 01:57:20 p. m."
+                                                }
+                       ]
+                     }
+                 ]
+}
