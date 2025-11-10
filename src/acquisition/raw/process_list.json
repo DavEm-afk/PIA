@@ -1,0 +1,1971 @@
+﻿{
+    "FechaEjecucion":  {
+                           "value":  "\/Date(1762578150553)\/",
+                           "DisplayHint":  2,
+                           "DateTime":  "viernes, 7 de noviembre de 2025 11:02:30 p. m."
+                       },
+    "Usuario":  "Vohiy",
+    "TotalProcesos":  280,
+    "Procesos":  [
+                     {
+                         "Nombre":  "AggregatorHost",
+                         "ID":  9264,
+                         "CPU":  null,
+                         "MemoriaMB":  8.67,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "amdfendrsr",
+                         "ID":  3220,
+                         "CPU":  null,
+                         "MemoriaMB":  2.47,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "AMDRSServ",
+                         "ID":  24184,
+                         "CPU":  1.125,
+                         "MemoriaMB":  91.52,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "AMDRSSrcExt",
+                         "ID":  27024,
+                         "CPU":  8.390625,
+                         "MemoriaMB":  47.96,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "AppActions",
+                         "ID":  27000,
+                         "CPU":  1.28125,
+                         "MemoriaMB":  34.94,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "ApplicationFrameHost",
+                         "ID":  22260,
+                         "CPU":  0.6875,
+                         "MemoriaMB":  42.78,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "AppProvisioningPlugin",
+                         "ID":  3316,
+                         "CPU":  null,
+                         "MemoriaMB":  8.01,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "atieclxx",
+                         "ID":  26928,
+                         "CPU":  null,
+                         "MemoriaMB":  20.39,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "atiesrxx",
+                         "ID":  3212,
+                         "CPU":  null,
+                         "MemoriaMB":  3.22,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "audiodg",
+                         "ID":  22400,
+                         "CPU":  9.125,
+                         "MemoriaMB":  26.98,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "AutoModeDetect",
+                         "ID":  13744,
+                         "CPU":  0.40625,
+                         "MemoriaMB":  13.88,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "backgroundTaskHost",
+                         "ID":  2708,
+                         "CPU":  0.40625,
+                         "MemoriaMB":  6.74,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "backgroundTaskHost",
+                         "ID":  5732,
+                         "CPU":  0.46875,
+                         "MemoriaMB":  35.26,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "backgroundTaskHost",
+                         "ID":  7244,
+                         "CPU":  0.390625,
+                         "MemoriaMB":  35.47,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "backgroundTaskHost",
+                         "ID":  8332,
+                         "CPU":  0.296875,
+                         "MemoriaMB":  20.96,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "backgroundTaskHost",
+                         "ID":  9116,
+                         "CPU":  0.359375,
+                         "MemoriaMB":  28.69,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "backgroundTaskHost",
+                         "ID":  20904,
+                         "CPU":  0.5625,
+                         "MemoriaMB":  22.54,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "backgroundTaskHost",
+                         "ID":  21428,
+                         "CPU":  0.453125,
+                         "MemoriaMB":  34.57,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "cncmd",
+                         "ID":  23596,
+                         "CPU":  0.125,
+                         "MemoriaMB":  8.64,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "Code",
+                         "ID":  5740,
+                         "CPU":  0.703125,
+                         "MemoriaMB":  48.37,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "Code",
+                         "ID":  10764,
+                         "CPU":  50.484375,
+                         "MemoriaMB":  251.66,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "Code",
+                         "ID":  11756,
+                         "CPU":  0.515625,
+                         "MemoriaMB":  103.92,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "Code",
+                         "ID":  13272,
+                         "CPU":  20.78125,
+                         "MemoriaMB":  158.71,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "Code",
+                         "ID":  14324,
+                         "CPU":  11.71875,
+                         "MemoriaMB":  226.27,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "Code",
+                         "ID":  16168,
+                         "CPU":  7.734375,
+                         "MemoriaMB":  114.55,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "Code",
+                         "ID":  17972,
+                         "CPU":  4.671875,
+                         "MemoriaMB":  128.18,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "Code",
+                         "ID":  19360,
+                         "CPU":  0.09375,
+                         "MemoriaMB":  32.61,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "Code",
+                         "ID":  20696,
+                         "CPU":  15.890625,
+                         "MemoriaMB":  144.06,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "Code",
+                         "ID":  24076,
+                         "CPU":  20.125,
+                         "MemoriaMB":  344.28,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "Code",
+                         "ID":  27328,
+                         "CPU":  2.03125,
+                         "MemoriaMB":  114.99,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "conhost",
+                         "ID":  2680,
+                         "CPU":  0.046875,
+                         "MemoriaMB":  8.46,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "conhost",
+                         "ID":  4320,
+                         "CPU":  0.109375,
+                         "MemoriaMB":  9.44,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "conhost",
+                         "ID":  9464,
+                         "CPU":  null,
+                         "MemoriaMB":  1.78,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "conhost",
+                         "ID":  19848,
+                         "CPU":  0.046875,
+                         "MemoriaMB":  8.48,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "conhost",
+                         "ID":  22576,
+                         "CPU":  0.015625,
+                         "MemoriaMB":  7.3,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "CrossDeviceResume",
+                         "ID":  11256,
+                         "CPU":  1.640625,
+                         "MemoriaMB":  61.98,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "CrossDeviceService",
+                         "ID":  20632,
+                         "CPU":  891.328125,
+                         "MemoriaMB":  204.72,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "csrss",
+                         "ID":  1356,
+                         "CPU":  null,
+                         "MemoriaMB":  3.48,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "csrss",
+                         "ID":  1628,
+                         "CPU":  null,
+                         "MemoriaMB":  8.77,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "ctfmon",
+                         "ID":  2580,
+                         "CPU":  23.59375,
+                         "MemoriaMB":  35.42,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "DAX3API",
+                         "ID":  4024,
+                         "CPU":  null,
+                         "MemoriaMB":  16.05,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "DAX3API",
+                         "ID":  8400,
+                         "CPU":  null,
+                         "MemoriaMB":  15.19,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "dllhost",
+                         "ID":  2364,
+                         "CPU":  null,
+                         "MemoriaMB":  10.09,
+                         "Usuario":  "Sistema"
+                     },
+                     {
+                         "Nombre":  "dwm",
+                         "ID":  16428,
+                         "CPU":  null,
+                         "MemoriaMB":  80.5,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "ElevocControlService",
+                         "ID":  4028,
+                         "CPU":  null,
+                         "MemoriaMB":  6.13,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "EpicGamesLauncher",
+                         "ID":  20972,
+                         "CPU":  98.140625,
+                         "MemoriaMB":  80.26,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "EpicWebHelper",
+                         "ID":  16956,
+                         "CPU":  0.703125,
+                         "MemoriaMB":  47.76,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "EpicWebHelper",
+                         "ID":  19108,
+                         "CPU":  0.78125,
+                         "MemoriaMB":  33.37,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "explorer",
+                         "ID":  3340,
+                         "CPU":  606.34375,
+                         "MemoriaMB":  321.08,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "FileCoAuth",
+                         "ID":  3552,
+                         "CPU":  3.9375,
+                         "MemoriaMB":  44.17,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "FileSyncHelper",
+                         "ID":  21496,
+                         "CPU":  null,
+                         "MemoriaMB":  27.17,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "FnHotkeyCapsLKNumLK",
+                         "ID":  24948,
+                         "CPU":  2.046875,
+                         "MemoriaMB":  17.21,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "FnHotkeyUtility",
+                         "ID":  11452,
+                         "CPU":  4.265625,
+                         "MemoriaMB":  43.31,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "fontdrvhost",
+                         "ID":  1876,
+                         "CPU":  null,
+                         "MemoriaMB":  0.89,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "fontdrvhost",
+                         "ID":  2720,
+                         "CPU":  null,
+                         "MemoriaMB":  10,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "Idle",
+                         "ID":  0,
+                         "CPU":  null,
+                         "MemoriaMB":  0.01,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "Lenovo.Modern.ImController",
+                         "ID":  8804,
+                         "CPU":  null,
+                         "MemoriaMB":  29.52,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "Lenovo.Modern.ImController.PluginHost.Device",
+                         "ID":  9584,
+                         "CPU":  5.328125,
+                         "MemoriaMB":  38.12,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "LenovoUtilityService",
+                         "ID":  5000,
+                         "CPU":  null,
+                         "MemoriaMB":  13.15,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "LenovoVantage-(GenericMessagingAddin)",
+                         "ID":  6836,
+                         "CPU":  8.203125,
+                         "MemoriaMB":  6.29,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "LenovoVantage-(VantageCoreAddin)",
+                         "ID":  16216,
+                         "CPU":  null,
+                         "MemoriaMB":  7.93,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "LenovoVantageService",
+                         "ID":  5056,
+                         "CPU":  null,
+                         "MemoriaMB":  47.08,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "LNBITSSvc",
+                         "ID":  5008,
+                         "CPU":  null,
+                         "MemoriaMB":  11.31,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "Locator",
+                         "ID":  5160,
+                         "CPU":  null,
+                         "MemoriaMB":  0.79,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "LockApp",
+                         "ID":  5424,
+                         "CPU":  4.265625,
+                         "MemoriaMB":  90.25,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "LsaIso",
+                         "ID":  1672,
+                         "CPU":  null,
+                         "MemoriaMB":  1.84,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "lsass",
+                         "ID":  1684,
+                         "CPU":  null,
+                         "MemoriaMB":  24.4,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "Memory Compression",
+                         "ID":  3680,
+                         "CPU":  null,
+                         "MemoriaMB":  598.84,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "MicrosoftStartFeedProvider",
+                         "ID":  21808,
+                         "CPU":  3.734375,
+                         "MemoriaMB":  50.77,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "MpDefenderCoreService",
+                         "ID":  3996,
+                         "CPU":  null,
+                         "MemoriaMB":  15.77,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "msedge",
+                         "ID":  12040,
+                         "CPU":  1.140625,
+                         "MemoriaMB":  102.85,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "msedge",
+                         "ID":  15808,
+                         "CPU":  0.609375,
+                         "MemoriaMB":  39.03,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "msedge",
+                         "ID":  16412,
+                         "CPU":  8.265625,
+                         "MemoriaMB":  139.23,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "msedge",
+                         "ID":  20432,
+                         "CPU":  0.125,
+                         "MemoriaMB":  20.32,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "msedge",
+                         "ID":  22860,
+                         "CPU":  0.078125,
+                         "MemoriaMB":  9.99,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "msedgewebview2",
+                         "ID":  6788,
+                         "CPU":  262.15625,
+                         "MemoriaMB":  335.73,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "msedgewebview2",
+                         "ID":  8516,
+                         "CPU":  8.59375,
+                         "MemoriaMB":  103.26,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "msedgewebview2",
+                         "ID":  8932,
+                         "CPU":  1.21875,
+                         "MemoriaMB":  3.84,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "msedgewebview2",
+                         "ID":  8996,
+                         "CPU":  36.328125,
+                         "MemoriaMB":  10.83,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "msedgewebview2",
+                         "ID":  10684,
+                         "CPU":  56.78125,
+                         "MemoriaMB":  59.49,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "msedgewebview2",
+                         "ID":  11696,
+                         "CPU":  8.359375,
+                         "MemoriaMB":  107.93,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "msedgewebview2",
+                         "ID":  16668,
+                         "CPU":  8.609375,
+                         "MemoriaMB":  20.96,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "msedgewebview2",
+                         "ID":  18168,
+                         "CPU":  0.859375,
+                         "MemoriaMB":  7.11,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "msedgewebview2",
+                         "ID":  19992,
+                         "CPU":  4.1875,
+                         "MemoriaMB":  60.74,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "msedgewebview2",
+                         "ID":  21268,
+                         "CPU":  1.859375,
+                         "MemoriaMB":  39.41,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "msedgewebview2",
+                         "ID":  22144,
+                         "CPU":  0.078125,
+                         "MemoriaMB":  9.51,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "msedgewebview2",
+                         "ID":  23040,
+                         "CPU":  111.4375,
+                         "MemoriaMB":  57.46,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "msedgewebview2",
+                         "ID":  24392,
+                         "CPU":  0.28125,
+                         "MemoriaMB":  20.54,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "msedgewebview2",
+                         "ID":  26480,
+                         "CPU":  0.1875,
+                         "MemoriaMB":  9.13,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "MsMpEng",
+                         "ID":  4008,
+                         "CPU":  null,
+                         "MemoriaMB":  274.4,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "ms-teams",
+                         "ID":  13224,
+                         "CPU":  52.765625,
+                         "MemoriaMB":  13.02,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "ms-teams_modulehost",
+                         "ID":  7264,
+                         "CPU":  15.875,
+                         "MemoriaMB":  8.45,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "NgcIso",
+                         "ID":  10152,
+                         "CPU":  null,
+                         "MemoriaMB":  0.97,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "NisSrv",
+                         "ID":  13364,
+                         "CPU":  null,
+                         "MemoriaMB":  5.86,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "Notion",
+                         "ID":  5412,
+                         "CPU":  67.390625,
+                         "MemoriaMB":  139.35,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "Notion",
+                         "ID":  6956,
+                         "CPU":  52.15625,
+                         "MemoriaMB":  154.51,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "Notion",
+                         "ID":  8100,
+                         "CPU":  108.171875,
+                         "MemoriaMB":  113.85,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "Notion",
+                         "ID":  14492,
+                         "CPU":  40.5625,
+                         "MemoriaMB":  65.11,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "Notion",
+                         "ID":  16880,
+                         "CPU":  0.734375,
+                         "MemoriaMB":  71.13,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "Notion",
+                         "ID":  23020,
+                         "CPU":  55.28125,
+                         "MemoriaMB":  189.85,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "Notion",
+                         "ID":  23068,
+                         "CPU":  0.796875,
+                         "MemoriaMB":  67.32,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "Notion",
+                         "ID":  27344,
+                         "CPU":  17.859375,
+                         "MemoriaMB":  63.2,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "OfficeClickToRun",
+                         "ID":  18768,
+                         "CPU":  null,
+                         "MemoriaMB":  37.94,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "OneDrive",
+                         "ID":  13000,
+                         "CPU":  29.640625,
+                         "MemoriaMB":  157.45,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "ONENOTEM",
+                         "ID":  26460,
+                         "CPU":  0.3125,
+                         "MemoriaMB":  3.76,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "pet",
+                         "ID":  12252,
+                         "CPU":  0.53125,
+                         "MemoriaMB":  7.72,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "PhoneExperienceHost",
+                         "ID":  10628,
+                         "CPU":  86.09375,
+                         "MemoriaMB":  243.98,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "powershell",
+                         "ID":  9756,
+                         "CPU":  3.15625,
+                         "MemoriaMB":  72.62,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "powershell",
+                         "ID":  17220,
+                         "CPU":  1.203125,
+                         "MemoriaMB":  87.62,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "powershell",
+                         "ID":  20776,
+                         "CPU":  2.125,
+                         "MemoriaMB":  85.95,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "powershell_ise",
+                         "ID":  15928,
+                         "CPU":  44.171875,
+                         "MemoriaMB":  191.95,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "python",
+                         "ID":  17512,
+                         "CPU":  0.078125,
+                         "MemoriaMB":  13.42,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "RadeonSoftware",
+                         "ID":  25452,
+                         "CPU":  22.21875,
+                         "MemoriaMB":  32.93,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "Registry",
+                         "ID":  276,
+                         "CPU":  null,
+                         "MemoriaMB":  59.41,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "RtkAudUService64",
+                         "ID":  5084,
+                         "CPU":  null,
+                         "MemoriaMB":  6.8,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "RtkAudUService64",
+                         "ID":  18860,
+                         "CPU":  1.09375,
+                         "MemoriaMB":  17.53,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "RuntimeBroker",
+                         "ID":  10880,
+                         "CPU":  0.09375,
+                         "MemoriaMB":  10.2,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "RuntimeBroker",
+                         "ID":  12508,
+                         "CPU":  1.953125,
+                         "MemoriaMB":  43.66,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "RuntimeBroker",
+                         "ID":  14288,
+                         "CPU":  5.3125,
+                         "MemoriaMB":  64.93,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "RuntimeBroker",
+                         "ID":  16148,
+                         "CPU":  1.453125,
+                         "MemoriaMB":  37.06,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "RuntimeBroker",
+                         "ID":  17500,
+                         "CPU":  0.171875,
+                         "MemoriaMB":  11.92,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "RuntimeBroker",
+                         "ID":  17584,
+                         "CPU":  0.328125,
+                         "MemoriaMB":  29.5,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "RuntimeBroker",
+                         "ID":  17660,
+                         "CPU":  0.203125,
+                         "MemoriaMB":  11.85,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "RuntimeBroker",
+                         "ID":  20160,
+                         "CPU":  0.625,
+                         "MemoriaMB":  30.78,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "RuntimeBroker",
+                         "ID":  20508,
+                         "CPU":  0.25,
+                         "MemoriaMB":  14.24,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "RuntimeBroker",
+                         "ID":  23560,
+                         "CPU":  0.1875,
+                         "MemoriaMB":  26.09,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "RuntimeBroker",
+                         "ID":  23636,
+                         "CPU":  0.65625,
+                         "MemoriaMB":  21.38,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "SearchHost",
+                         "ID":  25632,
+                         "CPU":  13.921875,
+                         "MemoriaMB":  120.04,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "SearchIndexer",
+                         "ID":  6596,
+                         "CPU":  null,
+                         "MemoriaMB":  42.73,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "SearchProtocolHost",
+                         "ID":  5972,
+                         "CPU":  null,
+                         "MemoriaMB":  17.88,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "Secure System",
+                         "ID":  236,
+                         "CPU":  null,
+                         "MemoriaMB":  62.83,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "SecurityHealthService",
+                         "ID":  12572,
+                         "CPU":  null,
+                         "MemoriaMB":  15.7,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "SecurityHealthSystray",
+                         "ID":  13612,
+                         "CPU":  0.140625,
+                         "MemoriaMB":  13.61,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "servicehost",
+                         "ID":  5076,
+                         "CPU":  null,
+                         "MemoriaMB":  34.13,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "services",
+                         "ID":  1636,
+                         "CPU":  null,
+                         "MemoriaMB":  8.17,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "ShellExperienceHost",
+                         "ID":  6716,
+                         "CPU":  1.34375,
+                         "MemoriaMB":  69.72,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "ShellHost",
+                         "ID":  22080,
+                         "CPU":  0.734375,
+                         "MemoriaMB":  45.92,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "sihost",
+                         "ID":  11832,
+                         "CPU":  19.8125,
+                         "MemoriaMB":  50.15,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "smss",
+                         "ID":  832,
+                         "CPU":  null,
+                         "MemoriaMB":  0.63,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "spoolsv",
+                         "ID":  4560,
+                         "CPU":  null,
+                         "MemoriaMB":  9.29,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "StartMenuExperienceHost",
+                         "ID":  12212,
+                         "CPU":  18.796875,
+                         "MemoriaMB":  142.82,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "steam",
+                         "ID":  25704,
+                         "CPU":  60.09375,
+                         "MemoriaMB":  66.52,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "steamservice",
+                         "ID":  9040,
+                         "CPU":  null,
+                         "MemoriaMB":  15.38,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "steamwebhelper",
+                         "ID":  1304,
+                         "CPU":  0.6875,
+                         "MemoriaMB":  19.76,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "steamwebhelper",
+                         "ID":  13692,
+                         "CPU":  2.140625,
+                         "MemoriaMB":  28.81,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "steamwebhelper",
+                         "ID":  14532,
+                         "CPU":  4.71875,
+                         "MemoriaMB":  72.23,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "steamwebhelper",
+                         "ID":  14680,
+                         "CPU":  61.84375,
+                         "MemoriaMB":  118.66,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "steamwebhelper",
+                         "ID":  15196,
+                         "CPU":  0.109375,
+                         "MemoriaMB":  14.38,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "steamwebhelper",
+                         "ID":  17100,
+                         "CPU":  1.921875,
+                         "MemoriaMB":  52.63,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "steamwebhelper",
+                         "ID":  20320,
+                         "CPU":  16.171875,
+                         "MemoriaMB":  227.3,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  1296,
+                         "CPU":  null,
+                         "MemoriaMB":  11.04,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  1360,
+                         "CPU":  null,
+                         "MemoriaMB":  7.82,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  1828,
+                         "CPU":  null,
+                         "MemoriaMB":  40.4,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  1896,
+                         "CPU":  0.0625,
+                         "MemoriaMB":  14.25,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  2004,
+                         "CPU":  null,
+                         "MemoriaMB":  20.61,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  2192,
+                         "CPU":  null,
+                         "MemoriaMB":  1.5,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  2208,
+                         "CPU":  null,
+                         "MemoriaMB":  2.61,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  2244,
+                         "CPU":  null,
+                         "MemoriaMB":  3.45,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  2264,
+                         "CPU":  null,
+                         "MemoriaMB":  7.58,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  2288,
+                         "CPU":  null,
+                         "MemoriaMB":  11.05,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  2448,
+                         "CPU":  null,
+                         "MemoriaMB":  7.48,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  2456,
+                         "CPU":  null,
+                         "MemoriaMB":  6.24,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  2548,
+                         "CPU":  null,
+                         "MemoriaMB":  6.01,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  2556,
+                         "CPU":  null,
+                         "MemoriaMB":  11.77,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  2572,
+                         "CPU":  0.59375,
+                         "MemoriaMB":  25.17,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  2596,
+                         "CPU":  null,
+                         "MemoriaMB":  7.07,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  2652,
+                         "CPU":  null,
+                         "MemoriaMB":  5.23,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  2744,
+                         "CPU":  null,
+                         "MemoriaMB":  8.12,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  2852,
+                         "CPU":  null,
+                         "MemoriaMB":  13.39,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  2876,
+                         "CPU":  null,
+                         "MemoriaMB":  17.81,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  2932,
+                         "CPU":  null,
+                         "MemoriaMB":  5.39,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  3064,
+                         "CPU":  null,
+                         "MemoriaMB":  4.98,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  3176,
+                         "CPU":  null,
+                         "MemoriaMB":  14.04,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  3420,
+                         "CPU":  null,
+                         "MemoriaMB":  7.41,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  3444,
+                         "CPU":  null,
+                         "MemoriaMB":  4.91,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  3484,
+                         "CPU":  null,
+                         "MemoriaMB":  2.07,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  3492,
+                         "CPU":  null,
+                         "MemoriaMB":  5.43,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  3500,
+                         "CPU":  null,
+                         "MemoriaMB":  8.57,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  3616,
+                         "CPU":  null,
+                         "MemoriaMB":  8.79,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  3664,
+                         "CPU":  null,
+                         "MemoriaMB":  6.18,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  3672,
+                         "CPU":  null,
+                         "MemoriaMB":  4.32,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  3848,
+                         "CPU":  null,
+                         "MemoriaMB":  9.12,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  3876,
+                         "CPU":  null,
+                         "MemoriaMB":  5.15,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  3928,
+                         "CPU":  null,
+                         "MemoriaMB":  13.55,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  3960,
+                         "CPU":  null,
+                         "MemoriaMB":  4.02,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  4152,
+                         "CPU":  null,
+                         "MemoriaMB":  7,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  4156,
+                         "CPU":  null,
+                         "MemoriaMB":  7.21,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  4276,
+                         "CPU":  null,
+                         "MemoriaMB":  4.16,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  4424,
+                         "CPU":  null,
+                         "MemoriaMB":  17.25,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  4452,
+                         "CPU":  null,
+                         "MemoriaMB":  9.73,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  4492,
+                         "CPU":  null,
+                         "MemoriaMB":  3.99,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  4516,
+                         "CPU":  null,
+                         "MemoriaMB":  19.66,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  4580,
+                         "CPU":  null,
+                         "MemoriaMB":  31.97,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  4680,
+                         "CPU":  null,
+                         "MemoriaMB":  5.08,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  4716,
+                         "CPU":  null,
+                         "MemoriaMB":  3.38,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  4932,
+                         "CPU":  null,
+                         "MemoriaMB":  4,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  4952,
+                         "CPU":  null,
+                         "MemoriaMB":  17.52,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  4960,
+                         "CPU":  null,
+                         "MemoriaMB":  50.32,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  4976,
+                         "CPU":  null,
+                         "MemoriaMB":  7.93,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  4984,
+                         "CPU":  null,
+                         "MemoriaMB":  50.54,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  4992,
+                         "CPU":  null,
+                         "MemoriaMB":  2.52,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  5024,
+                         "CPU":  null,
+                         "MemoriaMB":  15.21,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  5032,
+                         "CPU":  null,
+                         "MemoriaMB":  2.29,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  5040,
+                         "CPU":  null,
+                         "MemoriaMB":  22.08,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  5248,
+                         "CPU":  null,
+                         "MemoriaMB":  11.96,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  5640,
+                         "CPU":  null,
+                         "MemoriaMB":  4.71,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  6064,
+                         "CPU":  null,
+                         "MemoriaMB":  1.7,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  7280,
+                         "CPU":  null,
+                         "MemoriaMB":  22.5,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  7708,
+                         "CPU":  null,
+                         "MemoriaMB":  4.59,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  8396,
+                         "CPU":  null,
+                         "MemoriaMB":  7.2,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  8412,
+                         "CPU":  null,
+                         "MemoriaMB":  7.78,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  8704,
+                         "CPU":  null,
+                         "MemoriaMB":  10.2,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  8732,
+                         "CPU":  null,
+                         "MemoriaMB":  1.59,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  8880,
+                         "CPU":  3.265625,
+                         "MemoriaMB":  42.89,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  8928,
+                         "CPU":  null,
+                         "MemoriaMB":  35.1,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  8944,
+                         "CPU":  null,
+                         "MemoriaMB":  25.49,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  9108,
+                         "CPU":  null,
+                         "MemoriaMB":  5.3,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  9336,
+                         "CPU":  null,
+                         "MemoriaMB":  18.89,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  9416,
+                         "CPU":  null,
+                         "MemoriaMB":  5.7,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  9560,
+                         "CPU":  null,
+                         "MemoriaMB":  18.93,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  9776,
+                         "CPU":  null,
+                         "MemoriaMB":  4.48,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  10064,
+                         "CPU":  null,
+                         "MemoriaMB":  6.22,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  10924,
+                         "CPU":  null,
+                         "MemoriaMB":  26.45,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  11300,
+                         "CPU":  null,
+                         "MemoriaMB":  17.18,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  11428,
+                         "CPU":  null,
+                         "MemoriaMB":  13.37,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  12044,
+                         "CPU":  null,
+                         "MemoriaMB":  10.05,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  12492,
+                         "CPU":  0.40625,
+                         "MemoriaMB":  15.75,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  13264,
+                         "CPU":  null,
+                         "MemoriaMB":  14.85,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  13528,
+                         "CPU":  null,
+                         "MemoriaMB":  2.56,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  13996,
+                         "CPU":  null,
+                         "MemoriaMB":  9.16,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  14276,
+                         "CPU":  0.734375,
+                         "MemoriaMB":  30.1,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  15156,
+                         "CPU":  null,
+                         "MemoriaMB":  14.69,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  16980,
+                         "CPU":  null,
+                         "MemoriaMB":  9.98,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  18292,
+                         "CPU":  null,
+                         "MemoriaMB":  21.96,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  20568,
+                         "CPU":  null,
+                         "MemoriaMB":  2.56,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  21880,
+                         "CPU":  0.4375,
+                         "MemoriaMB":  23.66,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  22392,
+                         "CPU":  4.1875,
+                         "MemoriaMB":  33.09,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  22664,
+                         "CPU":  null,
+                         "MemoriaMB":  17.14,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  23492,
+                         "CPU":  0.0625,
+                         "MemoriaMB":  7.84,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  26052,
+                         "CPU":  null,
+                         "MemoriaMB":  12.23,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "svchost",
+                         "ID":  26160,
+                         "CPU":  0.21875,
+                         "MemoriaMB":  15.84,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "System",
+                         "ID":  4,
+                         "CPU":  null,
+                         "MemoriaMB":  5.73,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "SystemSettings",
+                         "ID":  10640,
+                         "CPU":  10.421875,
+                         "MemoriaMB":  2.66,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "taskhostw",
+                         "ID":  16852,
+                         "CPU":  1.09375,
+                         "MemoriaMB":  21.29,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "taskhostw",
+                         "ID":  26024,
+                         "CPU":  1.96875,
+                         "MemoriaMB":  24.64,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "TiWorker",
+                         "ID":  23984,
+                         "CPU":  null,
+                         "MemoriaMB":  36.92,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "TrustedInstaller",
+                         "ID":  13240,
+                         "CPU":  null,
+                         "MemoriaMB":  10.65,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "UDClientService",
+                         "ID":  5016,
+                         "CPU":  null,
+                         "MemoriaMB":  32.63,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "uihost",
+                         "ID":  4796,
+                         "CPU":  9.984375,
+                         "MemoriaMB":  28.66,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "unsecapp",
+                         "ID":  7864,
+                         "CPU":  null,
+                         "MemoriaMB":  7.48,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "unsecapp",
+                         "ID":  17364,
+                         "CPU":  0.078125,
+                         "MemoriaMB":  10.37,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "unsecapp",
+                         "ID":  21432,
+                         "CPU":  0.15625,
+                         "MemoriaMB":  10.07,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "UserOOBEBroker",
+                         "ID":  15668,
+                         "CPU":  0.0625,
+                         "MemoriaMB":  11.2,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "vivaldi",
+                         "ID":  760,
+                         "CPU":  63.859375,
+                         "MemoriaMB":  202.35,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "vivaldi",
+                         "ID":  1536,
+                         "CPU":  0.125,
+                         "MemoriaMB":  9.15,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "vivaldi",
+                         "ID":  1676,
+                         "CPU":  45.53125,
+                         "MemoriaMB":  55.44,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "vivaldi",
+                         "ID":  4292,
+                         "CPU":  19.296875,
+                         "MemoriaMB":  24.56,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "vivaldi",
+                         "ID":  4672,
+                         "CPU":  275.578125,
+                         "MemoriaMB":  206.41,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "vivaldi",
+                         "ID":  6324,
+                         "CPU":  549.046875,
+                         "MemoriaMB":  312.56,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "vivaldi",
+                         "ID":  8056,
+                         "CPU":  0.921875,
+                         "MemoriaMB":  39.91,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "vivaldi",
+                         "ID":  9428,
+                         "CPU":  51.171875,
+                         "MemoriaMB":  170.88,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "vivaldi",
+                         "ID":  10840,
+                         "CPU":  34.140625,
+                         "MemoriaMB":  137.72,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "vivaldi",
+                         "ID":  16652,
+                         "CPU":  0.09375,
+                         "MemoriaMB":  34.39,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "vivaldi",
+                         "ID":  19388,
+                         "CPU":  41.265625,
+                         "MemoriaMB":  132.3,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "vivaldi",
+                         "ID":  19584,
+                         "CPU":  0.8125,
+                         "MemoriaMB":  20.96,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "vivaldi",
+                         "ID":  22048,
+                         "CPU":  172.671875,
+                         "MemoriaMB":  183.45,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "vivaldi",
+                         "ID":  24272,
+                         "CPU":  0.734375,
+                         "MemoriaMB":  54,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "vivaldi",
+                         "ID":  26936,
+                         "CPU":  0.5,
+                         "MemoriaMB":  49.21,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "vmcompute",
+                         "ID":  6668,
+                         "CPU":  null,
+                         "MemoriaMB":  10.05,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "WidgetBoard",
+                         "ID":  9160,
+                         "CPU":  1.765625,
+                         "MemoriaMB":  32.21,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "WidgetService",
+                         "ID":  11812,
+                         "CPU":  4.65625,
+                         "MemoriaMB":  29.92,
+                         "Usuario":  "Vohiy"
+                     },
+                     {
+                         "Nombre":  "wininit",
+                         "ID":  1504,
+                         "CPU":  null,
+                         "MemoriaMB":  4.11,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "winlogon",
+                         "ID":  12568,
+                         "CPU":  null,
+                         "MemoriaMB":  14.5,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "wlanext",
+                         "ID":  8404,
+                         "CPU":  null,
+                         "MemoriaMB":  1.95,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "WmiApSrv",
+                         "ID":  17012,
+                         "CPU":  null,
+                         "MemoriaMB":  2.27,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "WmiPrvSE",
+                         "ID":  2128,
+                         "CPU":  null,
+                         "MemoriaMB":  15.43,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "WmiPrvSE",
+                         "ID":  6272,
+                         "CPU":  null,
+                         "MemoriaMB":  11.76,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "wslservice",
+                         "ID":  5068,
+                         "CPU":  null,
+                         "MemoriaMB":  14.79,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "WUDFHost",
+                         "ID":  1860,
+                         "CPU":  null,
+                         "MemoriaMB":  2.69,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "WUDFHost",
+                         "ID":  2044,
+                         "CPU":  null,
+                         "MemoriaMB":  2.07,
+                         "Usuario":  null
+                     }
+                 ]
+}
