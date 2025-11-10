@@ -1,0 +1,52 @@
+{
+    "FechaEjecucion":  {
+                           "value":  "\/Date(1762578150553)\/",
+                           "DisplayHint":  2,
+                           "DateTime":  "viernes, 7 de noviembre de 2025 11:02:30 p. m."
+                       },
+    "Usuario":  "--",
+    "TotalProcesos":  280,
+    "Procesos":  [
+                     {
+                         "Nombre":  "AggregatorHost",
+                         "ID":  9264,
+                         "CPU":  null,
+                         "MemoriaMB":  8.67,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "amdfendrsr",
+                         "ID":  3220,
+                         "CPU":  null,
+                         "MemoriaMB":  2.47,
+                         "Usuario":  null
+                     },
+                     {
+                         "Nombre":  "AMDRSServ",
+                         "ID":  24184,
+                         "CPU":  1.125,
+                         "MemoriaMB":  91.52,
+                         "Usuario":  "---"
+                     },
+                     {
+                         "Nombre":  "AMDRSSrcExt",
+                         "ID":  27024,
+                         "CPU":  8.390625,
+                         "MemoriaMB":  47.96,
+                         "Usuario":  "---"
+                     },
+                     {
+                         "Nombre":  "AppActions",
+                         "ID":  27000,
+                         "CPU":  1.28125,
+                         "MemoriaMB":  34.94,
+                         "Usuario":  "---"
+                     },
+                     {
+                         "Nombre":  "ApplicationFrameHost",
+                         "ID":  22260,
+                         "CPU":  0.6875,
+                         "MemoriaMB":  42.78,
+                         "Usuario":  "---"
+                     }
+                 ]
