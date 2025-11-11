@@ -80,38 +80,42 @@ PowerShell o Python enumeran los archivos objetivo; Python calcula SHA-256 para 
 
 ---
 
-### Tarea 3 — Detección de indicadores de compromiso y anomalías
+### Tarea 3 — Adquisición extendida de red
 **Título y propósito**  
-Analizar los artefactos recolectados para identificar procesos, rutas o comportamientos que coincidan con indicadores conocidos o que presenten heurísticas de sospecha (ej. procesos sin firma, ejecución desde rutas temporales, conexiones remotas inusuales).
+Ampliar la adquisición de artefactos del sistema incorporando información sobre las conexiones de red activas y su relación con los procesos en ejecución.
+El objetivo es permitir una correlación temprana entre actividad de procesos y tráfico de red, facilitando la detección de comportamientos anómalos o sospechosos en etapas posteriores del análisis.
 
 **Función / Rol**  
-DFIR — Threat Detection / SOC support
+DFIR — Network & Process Correlation Analyst
 
 **Entradas esperadas**  
-- Outputs de la Tarea 1 (JSON)  
-- Outputs de la Tarea 2 (hashes.csv)  
-- Listas de IoCs locales (CSV/JSON) en `/src/analysis/iocs/`
+- Sistema local en ejecución (requiere permisos de lectura de procesos y sockets).
+- Módulo psutil para enumerar procesos y conexiones.
+- Configuración de ruta de salida (/src/acquisition/raw/).
 
 **Salidas esperadas**  
-- `/reporting/findings_iocs.json` (registro estructurado de hallazgos)  
-- `/reporting/executive_summary.md` 
-- `/logs/run_<timestamp>.log` (registro estructurado del análisis)
+- /src/acquisition/raw/process_network.json — Lista de procesos con conexiones activas (TCP/UDP).
+- /src/acquisition/raw/net_connections.json — Conexiones globales del sistema.
+- /logs/acquisition_net_<timestamp>.log — Registro de ejecución y errores.
 
 **Descripción del procedimiento**  
-Python parsea los JSON de adquisición, calcula métricas (ej. procesos con conexiones remotas, binarios sin firma, rutas atípicas), cruza con la lista de indicadores y con los resultados de hashing. Se priorizan hallazgos por severidad y se generan outputs estructurados para el reporte. Los hallazgos relevantes se guardan y se preparan para el prompt hacia la OpenAI API.
+Enumerar todos los procesos con psutil.process_iter() y recopilar metadatos básicos, despues, para cada proceso, obtener sus conexiones activas mediante proc.connections(kind='inet'). Extraer información de cada conexión para al final: asociar las conexiones encontradas al proceso correspondiente y serializar la información en JSON.
 
 **Complejidad técnica**  
-- Correlación entre múltiples fuentes (procesos + conexiones + hashes)  
-- Procesamiento y normalización de datos (pandas / re / json)  
+- Enumeración y correlación de procesos con sockets de red.
+- Manejo de permisos y errores de acceso a procesos del sistema.
+- Serialización de datos anidados en estructuras JSON legibles.
+- Posible extensión futura: geolocalización o clasificación de IPs externas.
 
 **Controles éticos**  
-- El análisis se realiza sobre datos autorizados.  
-- Se anonimizarán / sintetizarán los ejemplos públicos.  
-- No se subirán datos sensibles a servicios externos sin consentimiento.
+- Los datos recolectados deben provenir de sistemas propios o entornos de práctica.
+- Las direcciones IP externas serán anonimizadas o truncadas en ejemplos públicos.
+- No se realizará tráfico activo ni escaneo de red, solo observación pasiva de conexiones.
 
 **Dependencias**  
-- Python 3.10+ (`pandas`, `requests`, `python-dotenv`)  
-- OpenAI Python client (`openai`) para integración con la API  
+- Python 3.10+
+- psutil
+- json / logging
 
 ---
 
@@ -188,7 +192,7 @@ Estructura del repositorio:
 ## Dependencias y requisitos técnicos
 **Python**  
 - Python 3.10+  
-- Dependencias sugeridas: `pandas`, `requests`, `openai`, `python-dotenv`, `tenacity` (o manejo propio de retries), `hashlib` (builtin)  
+- Dependencias sugeridas: `pandas`, `requests`, `openai`, `python-dotenv`, `tenacity`, `psutil`, `hashlib` (builtin)  
 - Packaging: PyInstaller o herramienta similar para generar ejecutable del componente principal.
 
 **PowerShell**  
