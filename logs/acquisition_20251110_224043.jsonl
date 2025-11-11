@@ -1,0 +1,2 @@
+{"timestamp": "2025-11-10T22:40:43.388414", "script": "get_processes.ps1", "status": "success", "output_file": "C:\\Users\\Vohiy\\OneDrive\\Documents\\Esc\\Scripts y asi ( PC )\\Proyectos\\PIA_pc\\raw\\process_list.json"}
+{"timestamp": "2025-11-10T22:42:21.127170", "script": "get_files.ps1", "status": "success", "output_file": "C:\\Users\\Vohiy\\OneDrive\\Documents\\Esc\\Scripts y asi ( PC )\\Proyectos\\PIA_pc\\raw\\files_list.json"}
