@@ -1,0 +1,45 @@
+{
+    "FechaAnalisis": "2025-11-12 02:52:58",
+    "TotalProcesos": 258,
+    "TotalArchivos": 39,
+    "ProcesosRelevantes": [],
+    "ArchivosRelevantes": [
+        {
+            "Ruta": "C:\\Users\\---\\Downloads\\ChromeSetup.exe",
+            "TamañoKB": 11845.38,
+            "ÚltimaModificación": {
+                "value": "/Date(1737941489959)/",
+                "DateTime": "domingo, 26 de enero de 2025 07:31:29 p. m."
+            },
+            "HashSHA256": "C91C2BF1B113E926B96AD8200E44B7BC121C1801C63C91159ADE2A194537F9F4"
+        },
+        {
+            "Ruta": "C:\\Users\\---\\Downloads\\fwr-1.2-build.exe",
+            "TamañoKB": 591601.72,
+            "ÚltimaModificación": {
+                "value": "/Date(1748826386645)/",
+                "DateTime": "domingo, 1 de junio de 2025 07:06:26 p. m."
+            },
+            "HashSHA256": "A5EF524072498CD895990BAB0A7AEED91672E787EF8A43C0912DFBB31655D801"
+        },
+        {
+            "Ruta": "C:\\Users\\---\\Downloads\\GitHubDesktopSetup-x64.exe",
+            "TamañoKB": 173091.46,
+            "ÚltimaModificación": {
+                "value": "/Date(1755659785787)/",
+                "DateTime": "martes, 19 de agosto de 2025 09:16:25 p. m."
+            },
+            "HashSHA256": "16319E849C9CC340680DF2FBCE16CA23E13E3836177CD7DC47A391F071C23E04"
+        },
+        {
+            "Ruta": "C:\\Users\\---\\Downloads\\MSTeamsSetup.exe",
+            "TamañoKB": 1417.62,
+            "ÚltimaModificación": {
+                "value": "/Date(1737942369281)/",
+                "DateTime": "domingo, 26 de enero de 2025 07:46:09 p. m."
+            },
+            "HashSHA256": "C8DB62BED2305B35860BA601C926F664DA5C49CB58DB6E364F0ED2805AF511F0"
+        }
+       
+    ]
+}
