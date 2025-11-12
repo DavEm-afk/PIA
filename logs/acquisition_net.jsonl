@@ -1,0 +1,8 @@
+{"timestamp": "2025-11-11T20:52:42", "level": "INFO", "event": "start", "message": "Inicio de adquisici\u00f3n de conexiones de red"}
+{"timestamp": "2025-11-11T20:52:42", "level": "INFO", "event": "save", "message": "Conexiones globales guardadas en C:\\Users\\Vohiy\\OneDrive\\Documents\\Esc\\Scripts y asi ( PC )\\Proyectos\\PIA_pc\\raw\\net_connections.json"}
+{"timestamp": "2025-11-11T20:52:43", "level": "INFO", "event": "save", "message": "Procesos con conexiones guardados en C:\\Users\\Vohiy\\OneDrive\\Documents\\Esc\\Scripts y asi ( PC )\\Proyectos\\PIA_pc\\raw\\process_network.json"}
+{"timestamp": "2025-11-11T20:52:43", "level": "INFO", "event": "end", "message": "Adquisici\u00f3n de red completada correctamente"}
+{"timestamp": "2025-11-11T20:56:02", "level": "INFO", "event": "start", "message": "Inicio de adquisici\u00f3n de conexiones de red"}
+{"timestamp": "2025-11-11T20:56:02", "level": "INFO", "event": "save", "message": "Conexiones globales guardadas en C:\\Users\\Vohiy\\OneDrive\\Documents\\Esc\\Scripts y asi ( PC )\\Proyectos\\PIA_pc\\raw\\net_connections.json"}
+{"timestamp": "2025-11-11T20:56:02", "level": "INFO", "event": "save", "message": "Procesos con conexiones guardados en C:\\Users\\Vohiy\\OneDrive\\Documents\\Esc\\Scripts y asi ( PC )\\Proyectos\\PIA_pc\\raw\\process_network.json"}
+{"timestamp": "2025-11-11T20:56:02", "level": "INFO", "event": "end", "message": "Adquisici\u00f3n de red completada correctamente"}
