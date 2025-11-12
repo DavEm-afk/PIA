@@ -47,9 +47,7 @@ $jsonPath = Join-Path $rawPath "process_list.json"
 # Guardar el JSON en carpeta 'raw'
 try {
     $data | ConvertTo-Json -Depth 5 | Out-File -FilePath $jsonPath -Encoding utf8
-    Write-Host "Archivo generado: $jsonPath"
+    Write-Output "Archivo generado: $jsonPath"
 } catch {
     Write-Host "Error al guardar archivo JSON: $($_.Exception.Message)"
 }
-
-Write-Output "Archivo generado: $jsonPath"
