@@ -1,0 +1,62 @@
+{
+        "pid": 4,
+        "name": "System",
+        "user": "NT AUTHORITY\\SYSTEM",
+        "connections": [
+            {
+                "laddr": "192.168.56.1:138",
+                "raddr": null,
+                "status": "NONE"
+            },
+            {
+                "laddr": "192.168.56.1:137",
+                "raddr": null,
+                "status": "NONE"
+            },
+            {
+                "laddr": "172.27.192.1:137",
+                "raddr": null,
+                "status": "NONE"
+            },
+            {
+                "laddr": ":::445",
+                "raddr": null,
+                "status": "LISTEN"
+            },
+            {
+                "laddr": "192.168.1.12:138",
+                "raddr": null,
+                "status": "NONE"
+            },
+            {
+                "laddr": "172.27.192.1:139",
+                "raddr": null,
+                "status": "LISTEN"
+            },
+            {
+                "laddr": "192.168.1.12:139",
+                "raddr": null,
+                "status": "LISTEN"
+            },
+            {
+                "laddr": "192.168.1.12:137",
+                "raddr": null,
+                "status": "NONE"
+            },
+            {
+                "laddr": "192.168.56.1:139",
+                "raddr": null,
+                "status": "LISTEN"
+            },
+            {
+                "laddr": "172.27.192.1:138",
+                "raddr": null,
+                "status": "NONE"
+            },
+            {
+                "laddr": "0.0.0.0:445",
+                "raddr": null,
+                "status": "LISTEN"
+            }
+    ]
+}
