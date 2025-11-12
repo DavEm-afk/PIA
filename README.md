@@ -8,4 +8,6 @@ Dentro del **entregable número 2** del proyecto se completó la **tarea número
 
 Además, se busca agregar como **tercera tarea** el **análisis de conexiones de red**, siendo un añadido al análisis general que se busca generar con el proyecto, especialmente enfocado en los **procesos**.
 
-Se agregó la Tarea 3 (adquisición extendida de red) en `/src/acquisition/get_network_info.py`, que obtiene información de conexiones TCP/UDP activas y las asocia con los procesos en ejecución.
+---
+
+* Se agregó la Tarea 3 (adquisición extendida de red) en `/src/acquisition/get_network_info.py`, que obtiene información de conexiones TCP/UDP activas y las asocia con los procesos en ejecución.
