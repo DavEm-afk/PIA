@@ -1,0 +1,35 @@
+{
+    "suspicious_extensions": [
+        ".exe", ".dll", ".bat", ".cmd", ".ps1", ".vbs", ".js"
+    ],
+    "sensitive_paths": [
+        "C:\\Windows\\System32",
+        "C:\\Windows\\SysWOW64",
+        "C:\\Users\\Public",
+        "C:\\Temp",
+        "C:\\ProgramData"
+    ],
+    "high_priority_processes": [
+        "powershell.exe",
+        "cmd.exe",
+        "python.exe",
+        "wmic.exe",
+        "rundll32.exe",
+        "regsvr32.exe",
+        "mshta.exe"
+    ],
+    "suspicious_ports": [
+        21, 22, 23, 25, 135, 139, 445, 3389
+    ],
+    "internal_ip_ranges": [
+        "192.168.",
+        "10.",
+        "172.16."
+    ],
+    "suspicious_keywords": [
+        "dump", "key", "shadow", "token", "inject", "remote", "admin"
+    ],
+    "ignore_processes": [
+        "System", "svchost.exe", "explorer.exe"
+    ]
+}
