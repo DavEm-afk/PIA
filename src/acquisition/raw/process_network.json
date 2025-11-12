@@ -1,0 +1,725 @@
+[
+    {
+        "pid": 4,
+        "name": "System",
+        "user": "NT AUTHORITY\\SYSTEM",
+        "connections": [
+            {
+                "laddr": "192.168.56.1:138",
+                "raddr": null,
+                "status": "NONE"
+            },
+            {
+                "laddr": "192.168.56.1:137",
+                "raddr": null,
+                "status": "NONE"
+            },
+            {
+                "laddr": "172.27.192.1:137",
+                "raddr": null,
+                "status": "NONE"
+            },
+            {
+                "laddr": ":::445",
+                "raddr": null,
+                "status": "LISTEN"
+            },
+            {
+                "laddr": "192.168.1.12:138",
+                "raddr": null,
+                "status": "NONE"
+            },
+            {
+                "laddr": "172.27.192.1:139",
+                "raddr": null,
+                "status": "LISTEN"
+            },
+            {
+                "laddr": "192.168.1.12:139",
+                "raddr": null,
+                "status": "LISTEN"
+            },
+            {
+                "laddr": "192.168.1.12:137",
+                "raddr": null,
+                "status": "NONE"
+            },
+            {
+                "laddr": "192.168.56.1:139",
+                "raddr": null,
+                "status": "LISTEN"
+            },
+            {
+                "laddr": "172.27.192.1:138",
+                "raddr": null,
+                "status": "NONE"
+            },
+            {
+                "laddr": "0.0.0.0:445",
+                "raddr": null,
+                "status": "LISTEN"
+            }
+        ]
+    },
+    {
+        "pid": 1504,
+        "name": "wininit.exe",
+        "user": null,
+        "connections": [
+            {
+                "laddr": ":::49665",
+                "raddr": null,
+                "status": "LISTEN"
+            },
+            {
+                "laddr": "0.0.0.0:49665",
+                "raddr": null,
+                "status": "LISTEN"
+            }
+        ]
+    },
+    {
+        "pid": 1636,
+        "name": "services.exe",
+        "user": null,
+        "connections": [
+            {
+                "laddr": "0.0.0.0:49669",
+                "raddr": null,
+                "status": "LISTEN"
+            },
+            {
+                "laddr": ":::49669",
+                "raddr": null,
+                "status": "LISTEN"
+            }
+        ]
+    },
+    {
+        "pid": 1684,
+        "name": "lsass.exe",
+        "user": null,
+        "connections": [
+            {
+                "laddr": "0.0.0.0:49664",
+                "raddr": null,
+                "status": "LISTEN"
+            },
+            {
+                "laddr": ":::49664",
+                "raddr": null,
+                "status": "LISTEN"
+            }
+        ]
+    },
+    {
+        "pid": 2004,
+        "name": "svchost.exe",
+        "user": null,
+        "connections": [
+            {
+                "laddr": ":::135",
+                "raddr": null,
+                "status": "LISTEN"
+            },
+            {
+                "laddr": "0.0.0.0:135",
+                "raddr": null,
+                "status": "LISTEN"
+            }
+        ]
+    },
+    {
+        "pid": 2556,
+        "name": "svchost.exe",
+        "user": null,
+        "connections": [
+            {
+                "laddr": "0.0.0.0:49666",
+                "raddr": null,
+                "status": "LISTEN"
+            },
+            {
+                "laddr": ":::49666",
+                "raddr": null,
+                "status": "LISTEN"
+            }
+        ]
+    },
+    {
+        "pid": 3176,
+        "name": "svchost.exe",
+        "user": null,
+        "connections": [
+            {
+                "laddr": "0.0.0.0:49667",
+                "raddr": null,
+                "status": "LISTEN"
+            },
+            {
+                "laddr": ":::49667",
+                "raddr": null,
+                "status": "LISTEN"
+            }
+        ]
+    },
+    {
+        "pid": 3420,
+        "name": "svchost.exe",
+        "user": null,
+        "connections": [
+            {
+                "laddr": ":::5353",
+                "raddr": null,
+                "status": "NONE"
+            },
+            {
+                "laddr": "0.0.0.0:52858",
+                "raddr": null,
+                "status": "NONE"
+            },
+            {
+                "laddr": ":::60183",
+                "raddr": null,
+                "status": "NONE"
+            },
+            {
+                "laddr": "0.0.0.0:60183",
+                "raddr": null,
+                "status": "NONE"
+            },
+            {
+                "laddr": ":::64397",
+                "raddr": null,
+                "status": "NONE"
+            },
+            {
+                "laddr": "0.0.0.0:64397",
+                "raddr": null,
+                "status": "NONE"
+            },
+            {
+                "laddr": ":::5355",
+                "raddr": null,
+                "status": "NONE"
+            },
+            {
+                "laddr": ":::52858",
+                "raddr": null,
+                "status": "NONE"
+            },
+            {
+                "laddr": "0.0.0.0:5353",
+                "raddr": null,
+                "status": "NONE"
+            },
+            {
+                "laddr": "0.0.0.0:5355",
+                "raddr": null,
+                "status": "NONE"
+            }
+        ]
+    },
+    {
+        "pid": 3760,
+        "name": "Code.exe",
+        "user": "AL\u00d3\\Vohiy",
+        "connections": [
+            {
+                "laddr": "127.0.0.1:4968",
+                "raddr": null,
+                "status": "LISTEN"
+            }
+        ]
+    },
+    {
+        "pid": 3764,
+        "name": "OneDrive.exe",
+        "user": "AL\u00d3\\Vohiy",
+        "connections": [
+            {
+                "laddr": "2806:230:2014:bc43:c9ff:42a2:d7b7:230d:15899",
+                "raddr": "2603:1030:40c:e:::443",
+                "status": "ESTABLISHED"
+            },
+            {
+                "laddr": "192.168.1.12:6045",
+                "raddr": "52.104.32.25:443",
+                "status": "ESTABLISHED"
+            },
+            {
+                "laddr": "192.168.1.12:6044",
+                "raddr": "13.107.137.11:443",
+                "status": "ESTABLISHED"
+            }
+        ]
+    },
+    {
+        "pid": 4560,
+        "name": "spoolsv.exe",
+        "user": null,
+        "connections": [
+            {
+                "laddr": "0.0.0.0:49668",
+                "raddr": null,
+                "status": "LISTEN"
+            },
+            {
+                "laddr": ":::49668",
+                "raddr": null,
+                "status": "LISTEN"
+            }
+        ]
+    },
+    {
+        "pid": 4932,
+        "name": "svchost.exe",
+        "user": null,
+        "connections": [
+            {
+                "laddr": "0.0.0.0:53",
+                "raddr": null,
+                "status": "NONE"
+            },
+            {
+                "laddr": ":::58209",
+                "raddr": null,
+                "status": "NONE"
+            },
+            {
+                "laddr": "0.0.0.0:58208",
+                "raddr": null,
+                "status": "NONE"
+            },
+            {
+                "laddr": "0.0.0.0:58207",
+                "raddr": null,
+                "status": "NONE"
+            }
+        ]
+    },
+    {
+        "pid": 4976,
+        "name": "svchost.exe",
+        "user": null,
+        "connections": [
+            {
+                "laddr": "127.0.0.1:57071",
+                "raddr": null,
+                "status": "NONE"
+            }
+        ]
+    },
+    {
+        "pid": 5024,
+        "name": "svchost.exe",
+        "user": null,
+        "connections": [
+            {
+                "laddr": "2806:230:2014:bc43:c9ff:42a2:d7b7:230d:31138",
+                "raddr": "2603:1030:40c:e:::443",
+                "status": "ESTABLISHED"
+            }
+        ]
+    },
+    {
+        "pid": 9336,
+        "name": "svchost.exe",
+        "user": null,
+        "connections": [
+            {
+                "laddr": "0.0.0.0:5050",
+                "raddr": null,
+                "status": "NONE"
+            },
+            {
+                "laddr": "0.0.0.0:5040",
+                "raddr": null,
+                "status": "LISTEN"
+            }
+        ]
+    },
+    {
+        "pid": 9776,
+        "name": "svchost.exe",
+        "user": null,
+        "connections": [
+            {
+                "laddr": "fe80::d051:328:6d86:aac3:52244",
+                "raddr": null,
+                "status": "NONE"
+            },
+            {
+                "laddr": "127.0.0.1:1900",
+                "raddr": null,
+                "status": "NONE"
+            },
+            {
+                "laddr": "fe80::5413:ce48:464b:256e:52245",
+                "raddr": null,
+                "status": "NONE"
+            },
+            {
+                "laddr": "192.168.56.1:1900",
+                "raddr": null,
+                "status": "NONE"
+            },
+            {
+                "laddr": "172.27.192.1:52247",
+                "raddr": null,
+                "status": "NONE"
+            },
+            {
+                "laddr": "192.168.56.1:52248",
+                "raddr": null,
+                "status": "NONE"
+            },
+            {
+                "laddr": "192.168.1.12:52249",
+                "raddr": null,
+                "status": "NONE"
+            },
+            {
+                "laddr": "192.168.1.12:1900",
+                "raddr": null,
+                "status": "NONE"
+            },
+            {
+                "laddr": "::1:52246",
+                "raddr": null,
+                "status": "NONE"
+            },
+            {
+                "laddr": "fe80::5413:ce48:464b:256e:1900",
+                "raddr": null,
+                "status": "NONE"
+            },
+            {
+                "laddr": "127.0.0.1:52250",
+                "raddr": null,
+                "status": "NONE"
+            },
+            {
+                "laddr": "::1:1900",
+                "raddr": null,
+                "status": "NONE"
+            },
+            {
+                "laddr": "fe80::d051:328:6d86:aac3:1900",
+                "raddr": null,
+                "status": "NONE"
+            },
+            {
+                "laddr": "fe80::a53c:da4f:322b:f1be:1900",
+                "raddr": null,
+                "status": "NONE"
+            },
+            {
+                "laddr": "fe80::a53c:da4f:322b:f1be:52243",
+                "raddr": null,
+                "status": "NONE"
+            },
+            {
+                "laddr": "172.27.192.1:1900",
+                "raddr": null,
+                "status": "NONE"
+            }
+        ]
+    },
+    {
+        "pid": 9884,
+        "name": "EpicGamesLauncher.exe",
+        "user": "AL\u00d3\\Vohiy",
+        "connections": [
+            {
+                "laddr": "192.168.1.12:64935",
+                "raddr": "44.218.144.247:443",
+                "status": "CLOSE_WAIT"
+            }
+        ]
+    },
+    {
+        "pid": 14232,
+        "name": "vivaldi.exe",
+        "user": "AL\u00d3\\Vohiy",
+        "connections": [
+            {
+                "laddr": "192.168.1.12:36365",
+                "raddr": "140.82.113.25:443",
+                "status": "ESTABLISHED"
+            },
+            {
+                "laddr": "2806:230:2014:bc43:c9ff:42a2:d7b7:230d:15877",
+                "raddr": "2607:f8b0:4023:1002::bc:5228",
+                "status": "ESTABLISHED"
+            },
+            {
+                "laddr": "2806:230:2014:bc43:c9ff:42a2:d7b7:230d:6043",
+                "raddr": "2600:1f18:24e6:b900:2d16:a724:7ca3:5c63:443",
+                "status": "ESTABLISHED"
+            },
+            {
+                "laddr": "2806:230:2014:bc43:c9ff:42a2:d7b7:230d:36356",
+                "raddr": "2606:50c0:8003::154:443",
+                "status": "ESTABLISHED"
+            },
+            {
+                "laddr": ":::5353",
+                "raddr": null,
+                "status": "NONE"
+            },
+            {
+                "laddr": "2806:230:2014:bc43:c9ff:42a2:d7b7:230d:46678",
+                "raddr": "2a06:98c1:3100::6812:202f:443",
+                "status": "ESTABLISHED"
+            },
+            {
+                "laddr": "2806:230:2014:bc43:c9ff:42a2:d7b7:230d:64948",
+                "raddr": "2a06:98c1:310b::ac40:9bd1:443",
+                "status": "ESTABLISHED"
+            },
+            {
+                "laddr": "2806:230:2014:bc43:c9ff:42a2:d7b7:230d:22554",
+                "raddr": "2a06:98c1:3107::6812:2715:443",
+                "status": "ESTABLISHED"
+            },
+            {
+                "laddr": "0.0.0.0:5353",
+                "raddr": null,
+                "status": "NONE"
+            }
+        ]
+    },
+    {
+        "pid": 14564,
+        "name": "explorer.exe",
+        "user": "AL\u00d3\\Vohiy",
+        "connections": [
+            {
+                "laddr": "2806:230:2014:bc43:c9ff:42a2:d7b7:230d:11220",
+                "raddr": "2603:1063:2001:909::365:ff1:443",
+                "status": "ESTABLISHED"
+            },
+            {
+                "laddr": "2806:230:2014:bc43:c9ff:42a2:d7b7:230d:11221",
+                "raddr": "2603:1063:2001:909::365:ff1:443",
+                "status": "ESTABLISHED"
+            }
+        ]
+    },
+    {
+        "pid": 14984,
+        "name": "CrossDeviceService.exe",
+        "user": "AL\u00d3\\Vohiy",
+        "connections": [
+            {
+                "laddr": "2806:230:2014:bc43:c9ff:42a2:d7b7:230d:23979",
+                "raddr": "2603:1030:40c:4::8:443",
+                "status": "ESTABLISHED"
+            }
+        ]
+    },
+    {
+        "pid": 15076,
+        "name": "Code.exe",
+        "user": "AL\u00d3\\Vohiy",
+        "connections": [
+            {
+                "laddr": "192.168.1.12:6047",
+                "raddr": "20.42.72.131:443",
+                "status": "ESTABLISHED"
+            }
+        ]
+    },
+    {
+        "pid": 15812,
+        "name": "PhoneExperienceHost.exe",
+        "user": "AL\u00d3\\Vohiy",
+        "connections": [
+            {
+                "laddr": "2806:230:2014:bc43:c9ff:42a2:d7b7:230d:7396",
+                "raddr": "2603:1030:a07:1::71c:443",
+                "status": "ESTABLISHED"
+            }
+        ]
+    },
+    {
+        "pid": 17516,
+        "name": "msedgewebview2.exe",
+        "user": "AL\u00d3\\Vohiy",
+        "connections": [
+            {
+                "laddr": "2806:230:2014:bc43:c9ff:42a2:d7b7:230d:6042",
+                "raddr": "2603:1063:16:124::365:7ea3:443",
+                "status": "ESTABLISHED"
+            },
+            {
+                "laddr": "2806:230:2014:bc43:c9ff:42a2:d7b7:230d:61577",
+                "raddr": "2603:1063:8::367:443",
+                "status": "ESTABLISHED"
+            }
+        ]
+    },
+    {
+        "pid": 18436,
+        "name": "ms-teams_modulehost.exe",
+        "user": "AL\u00d3\\Vohiy",
+        "connections": [
+            {
+                "laddr": "0.0.0.0:50074",
+                "raddr": null,
+                "status": "NONE"
+            },
+            {
+                "laddr": ":::50074",
+                "raddr": null,
+                "status": "NONE"
+            },
+            {
+                "laddr": "0.0.0.0:58714",
+                "raddr": null,
+                "status": "NONE"
+            },
+            {
+                "laddr": "2806:230:2014:bc43:c9ff:42a2:d7b7:230d:36336",
+                "raddr": "2603:1063:16:108::365:7ea3:443",
+                "status": "ESTABLISHED"
+            },
+            {
+                "laddr": ":::58714",
+                "raddr": null,
+                "status": "NONE"
+            },
+            {
+                "laddr": "2806:230:2014:bc43:c9ff:42a2:d7b7:230d:36330",
+                "raddr": "2603:1063:24::2ee:443",
+                "status": "ESTABLISHED"
+            }
+        ]
+    },
+    {
+        "pid": 19160,
+        "name": "steam.exe",
+        "user": "AL\u00d3\\Vohiy",
+        "connections": [
+            {
+                "laddr": "192.168.1.12:27036",
+                "raddr": null,
+                "status": "NONE"
+            },
+            {
+                "laddr": "127.0.0.1:15908",
+                "raddr": "127.0.0.1:15942",
+                "status": "ESTABLISHED"
+            },
+            {
+                "laddr": "0.0.0.0:27036",
+                "raddr": null,
+                "status": "NONE"
+            },
+            {
+                "laddr": "127.0.0.1:15908",
+                "raddr": null,
+                "status": "LISTEN"
+            },
+            {
+                "laddr": "127.0.0.1:15907",
+                "raddr": null,
+                "status": "LISTEN"
+            },
+            {
+                "laddr": "127.0.0.1:27060",
+                "raddr": null,
+                "status": "LISTEN"
+            },
+            {
+                "laddr": "192.168.1.12:15912",
+                "raddr": "162.254.194.56:443",
+                "status": "ESTABLISHED"
+            },
+            {
+                "laddr": "0.0.0.0:27036",
+                "raddr": null,
+                "status": "LISTEN"
+            },
+            {
+                "laddr": "127.0.0.1:15907",
+                "raddr": "127.0.0.1:15943",
+                "status": "ESTABLISHED"
+            },
+            {
+                "laddr": "172.27.192.1:27036",
+                "raddr": null,
+                "status": "NONE"
+            }
+        ]
+    },
+    {
+        "pid": 19272,
+        "name": "vivaldi.exe",
+        "user": "AL\u00d3\\Vohiy",
+        "connections": [
+            {
+                "laddr": ":::5353",
+                "raddr": null,
+                "status": "NONE"
+            },
+            {
+                "laddr": "0.0.0.0:5353",
+                "raddr": null,
+                "status": "NONE"
+            }
+        ]
+    },
+    {
+        "pid": 22600,
+        "name": "OneDrive.Sync.Service.exe",
+        "user": "AL\u00d3\\Vohiy",
+        "connections": [
+            {
+                "laddr": "::1:42050",
+                "raddr": null,
+                "status": "LISTEN"
+            }
+        ]
+    },
+    {
+        "pid": 23492,
+        "name": "steamwebhelper.exe",
+        "user": "AL\u00d3\\Vohiy",
+        "connections": [
+            {
+                "laddr": "127.0.0.1:15943",
+                "raddr": "127.0.0.1:15907",
+                "status": "ESTABLISHED"
+            },
+            {
+                "laddr": "127.0.0.1:15942",
+                "raddr": "127.0.0.1:15908",
+                "status": "ESTABLISHED"
+            }
+        ]
+    },
+    {
+        "pid": 26220,
+        "name": "Notion.exe",
+        "user": "AL\u00d3\\Vohiy",
+        "connections": [
+            {
+                "laddr": "192.168.1.12:35058",
+                "raddr": "34.110.164.207:443",
+                "status": "ESTABLISHED"
+            },
+            {
+                "laddr": "192.168.1.12:40853",
+                "raddr": "208.103.161.2:443",
+                "status": "ESTABLISHED"
+            },
+            {
+                "laddr": "2806:230:2014:bc43:c9ff:42a2:d7b7:230d:55494",
+                "raddr": "2602:f79a::1:443",
+                "status": "ESTABLISHED"
+            }
+        ]
+    }
+]
