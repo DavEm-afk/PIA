@@ -10,4 +10,4 @@ Además, se busca agregar como **tercera tarea** el **análisis de conexiones de
 
 ---
 
-* Se agregó la Tarea 3 (adquisición extendida de red) en `/src/acquisition/get_network_info.py`, que obtiene información de conexiones TCP/UDP activas y las asocia con los procesos en ejecución.
+Se agregó la Tarea 3 (adquisición extendida de red) en `/src/acquisition/get_network_info.py`, que obtiene información de conexiones TCP/UDP activas y las asocia con los procesos en ejecución.
