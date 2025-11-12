@@ -56,10 +56,9 @@ if (-not (Test-Path $rawPath)) {
 $jsonPath = Join-Path $rawPath "files_list.json"
 try {
     $data | ConvertTo-Json -Depth 5 | Out-File -FilePath $jsonPath -Encoding utf8
-    Write-Host "Archivo generado: $jsonPath"
+    Write-Output "Archivo generado: $jsonPath"
 } catch {
     Write-Host "Error al guardar archivo JSON: $($_.Exception.Message)"
 }
 
 
-Write-Output "Archivo generado: $jsonPath"
