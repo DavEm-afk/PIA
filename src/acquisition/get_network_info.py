@@ -33,7 +33,7 @@ write_log("start", "Inicio de adquisición de conexiones de red")
 try:
     #  Recolectar conexiones globales del sistema 
     system_connections = []
-    for conn in psutil.net_connections(kind='inet'):
+    for conn in psutil.connections(kind='inet'):
         system_connections.append({
             "fd": conn.fd,
             "family": str(conn.family),
@@ -52,7 +52,7 @@ try:
     process_data = []
     for proc in psutil.process_iter(['pid', 'name', 'username']):
         try:
-            conns = proc.connections(kind='inet')
+            conns = proc.net_connections(kind='inet')
             if conns:
                 conn_list = []
                 for c in conns:
@@ -79,3 +79,4 @@ try:
 except Exception as e:
     write_log("error", f"Error durante la adquisición de red: {str(e)}", level="ERROR")
     print(f"Error: {e}")
+
