@@ -88,15 +88,15 @@ def perform_network_analysis(net_file, process_file, config_dir="./config"):
     suspicious_ports, internal_ranges = load_priorities(config_dir)
 
     # net_connections.json
-    with open(net_file, "r", encoding="utf-8") as f:
+    with open(net_file, "r", encoding="utf-8-sig") as f:
         net_data = json.load(f)
 
     # process_list.json
-    with open(process_file, "r", encoding="utf-8") as f:
+    with open(process_file, "r", encoding="utf-8-sig") as f:
         process_list = json.load(f)
 
-  
-    process_info = {str(p["pid"]): p["name"] for p in process_list}
+    process_list = process_list.get("Procesos", [])
+    process_info = {str(p.get("ID")): p.get("Nombre") for p in process_list}
 
     # Agrupar conexiones por PID
     per_pid = {}
