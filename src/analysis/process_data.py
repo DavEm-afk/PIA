@@ -2,6 +2,7 @@ import json
 import os
 import datetime
 import logging
+from process_network_analysis import perform_network_analysis
 
 # Configuración de logs 
 os.makedirs("./logs", exist_ok=True)
@@ -74,6 +75,14 @@ summary = {
     "ProcesosRelevantes": important_procs,
     "ArchivosRelevantes": important_files,
 }
+
+# Integracion de analisis de red
+network_result = perform_network_analysis(
+    net_file=config_paths.get("connections", ""),
+    process_file=config_paths.get("processes", ""),
+    config_dir="./src/analysis/config"
+)
+summary.update(network_result)
 
 # Guardado
 os.makedirs("./output", exist_ok=True)
