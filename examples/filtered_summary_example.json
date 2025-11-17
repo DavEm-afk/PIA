@@ -21,25 +21,28 @@
                 "DateTime": "domingo, 1 de junio de 2025 07:06:26 p. m."
             },
             "HashSHA256": "A5EF524072498CD895990BAB0A7AEED91672E787EF8A43C0912DFBB31655D801"
-        },
-        {
-            "Ruta": "C:\\Users\\---\\Downloads\\GitHubDesktopSetup-x64.exe",
-            "TamañoKB": 173091.46,
-            "ÚltimaModificación": {
-                "value": "/Date(1755659785787)/",
-                "DateTime": "martes, 19 de agosto de 2025 09:16:25 p. m."
-            },
-            "HashSHA256": "16319E849C9CC340680DF2FBCE16CA23E13E3836177CD7DC47A391F071C23E04"
-        },
-        {
-            "Ruta": "C:\\Users\\---\\Downloads\\MSTeamsSetup.exe",
-            "TamañoKB": 1417.62,
-            "ÚltimaModificación": {
-                "value": "/Date(1737942369281)/",
-                "DateTime": "domingo, 26 de enero de 2025 07:46:09 p. m."
-            },
-            "HashSHA256": "C8DB62BED2305B35860BA601C926F664DA5C49CB58DB6E364F0ED2805AF511F0"
         }
        
-    ]
+    ],
+    "network_analysis": {
+        "per_process": {
+            "PID 2004 (PID 2004)": {
+                "connections": 2,
+                "listen_ports": [
+                    "0.0.0.0:135",
+                    ":::135"
+                ],
+                "remote_connections": [],
+                "suspicious": true,
+                "notes": [
+                    "Puerto LISTEN sospechoso: 135",
+                    "Puerto LISTEN sospechoso: 135"
+                ]
+            }
+    "AnalisisHashes": {
+        "TotalArchivosAnalizados": 39,
+        "TotalCoincidencias": 0,
+        "Coincidencias": [],
+        "FechaAnalisisHash": "2025-11-17 11:06:45"
+    }
 }
