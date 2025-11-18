@@ -1,0 +1,29 @@
+{
+    "ProcesosSospechosos": [
+        {
+            "ID": 1234,
+            "Nombre": "powershell.exe",
+            "ConexionesActivas": [
+                {
+                    "raddr": "185.33.22.17:4444",
+                    "Sospechosa": true,
+                    "Externa": true
+                }
+            ]
+        }
+    ],
+    "ConexionesSospechosas": [
+        {
+            "raddr": "185.33.22.17:4444",
+            "Sospechosa": true,
+            "Externa": true
+        }
+    ],
+    "ArchivosMaliciosos": [
+        {
+            "ruta": "C:\\Malware\\evil.exe",
+            "hash": "aaaaaaaaaaaaaaaa",
+            "malicioso": true
+        }
+    ]
+}
