@@ -1,0 +1,11 @@
+{
+  "version": "1.0",
+  "tarea": "Generación de reporte forense personalizado",
+  "descripcion": "Template base para generar el reporte final usando IA, basado en los hallazgos obtenidos por los scripts de análisis.",
+  "template": "Con los datos que se comparten a continuación:\n{data}\nGenera un reporte claro, personalizado y fácil de entender. Enfócate en:\n1. Detectar anomalías si existen (procesos raros, archivos modificados, conexiones sospechosas).\n2. Explicar qué significa cada hallazgo sin tecnicismos innecesarios.\n3. Dar recomendaciones prácticas para reducir riesgos en el sistema.\n4. Mantener un tono simple, directo y útil.",
+  "instrucciones": {
+    "tono": "natural, directo y sin formalidad innecesaria",
+    "formato_respuesta": "markdown",
+    "max_tokens": 1200
+  }
+}
