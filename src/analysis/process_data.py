@@ -2,7 +2,9 @@ import json
 import os
 import datetime
 import logging
-from process_network_analysis import perform_network_analysis
+from src.analysis.process_network_analysis import perform_network_analysis
+from src.analysis.hash_analysis import analyze_file_hashes
+from src.analysis.filter_suspicious import filter_suspicious
 
 # Configuración de logs 
 os.makedirs("./logs", exist_ok=True)
@@ -84,6 +86,13 @@ network_result = perform_network_analysis(
 )
 summary.update(network_result)
 
+#Integracion de analisis de hashes
+hash_result = analyze_file_hashes(
+    files_list=files.get("Archivos", []),
+    blacklist_path="./src/analysis/config/hash_blacklist.json"
+)
+summary.update({"AnalisisHashes": hash_result})
+
 # Guardado
 os.makedirs("./output", exist_ok=True)
 output_path = "./output/filtered_summary.json"
@@ -94,6 +103,12 @@ logging.info(json.dumps({
     "status": "OK",
     "message": f"Análisis completado correctamente. Resultado guardado en {output_path}"
 }))
+
+# Crear resumen con informacion sospechosa
+filter_suspicious(
+    summary_path="./output/filtered_summary.json",
+    output_path="./output/suspicious_only.json"
+)
 
 print(f"Análisis completado. Resultados en: {output_path}")
 print(f"Log generado en: {log_file}")
