@@ -1,4 +1,4 @@
-Este archivo representa la estructura inicial del proyecto. Avanzando en la creacion del proyecto se presentaron diversas modificaciones a las ideas originales.
+### Este archivo representa la estructura inicial del proyecto. Avanzando en la creacion del proyecto se presentaron diversas modificaciones a las ideas originales.
 ---
 # Sistema de Análisis Forense Automatizado para Windows
 
