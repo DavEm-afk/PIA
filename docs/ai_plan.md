@@ -12,7 +12,7 @@ Al final, después de:
 
 2.⁠ ⁠Análisis y comparación (Python)
 
-3.⁠ ⁠'IA para generar el reporte final'
+3.⁠ ⁠`IA para generar el reporte final`
 
 El objetivo es: datos → filtrado → IA → reporte listo para entregar.
 
