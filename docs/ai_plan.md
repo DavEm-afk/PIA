@@ -1,9 +1,9 @@
 # Plan de uso de IA en el proyecto
 
-La IA la usamos solo al final del proceso, cuando ya tenemos los resultados del análisis (hashes, anomalías, archivos modificados, etc.). La idea es que la IA ayude a escribir un reporte más claro, personalizado y con recomendaciones basadas en lo que realmente encontró el sistema.
+La IA se utilizará al final del proceso de analisis, sería el punto donde se tienen los datos filtrados, logrando asi una mayor precision y no saturando a la inteligencia artificial con demasiados datos innecesarios. La idea es que la IA ayude a escribir un reporte más claro, personalizado y con recomendaciones basadas en lo que realmente encontró el sistema.
 
 ## ¿Para qué usamos la IA?
-Para convertir los datos crudos del análisis en un reporte entendible y con sugerencias útiles. No investiga nada por su cuenta: solo mejora y organiza lo que ya generaron los scripts.
+Para convertir los datos crudos del análisis en un reporte entendible y con sugerencias útiles. No investiga nada por su cuenta, solo mejora y organiza lo que ya generaron los scripts.
 
 ## ¿En qué parte del flujo entra la IA?
 Al final, después de:
@@ -17,8 +17,7 @@ Al final, después de:
 El objetivo es: datos → filtrado → IA → reporte listo para entregar.
 
 ## ¿Qué API/modelo usaremos?
-La API de OpenAI, usando un modelo de texto (como GPT-4.1 o el que esté disponible).  
-La llave API se usa solo por variable de entorno (⁠ OPENAI_API_KEY ⁠) sin guardarla en GitHub.
+La API de OpenAI, usando un modelo de texto (en este caso se buscaría hacer uso de la version 3.5).  
 
 ## Prompt base que usaremos
-Este es un ejemplo simple del prompt inicial que vamos a cargar desde ⁠ /prompts/prompt_v1.json ⁠:
+Este es un ejemplo simple del prompt inicial que vamos a utilizar ⁠:
