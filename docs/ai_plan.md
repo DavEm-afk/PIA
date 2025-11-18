@@ -7,9 +7,12 @@ Para convertir los datos crudos del análisis en un reporte entendible y con sug
 
 ## ¿En qué parte del flujo entra la IA?
 Al final, después de:
+
 1.⁠ ⁠Adquisición de datos (PowerShell)
+
 2.⁠ ⁠Análisis y comparación (Python)
-3.⁠ ⁠→ *IA para generar el reporte final*
+
+3.⁠ ⁠*IA para generar el reporte final*
 
 El objetivo es: datos → filtrado → IA → reporte listo para entregar.
 
