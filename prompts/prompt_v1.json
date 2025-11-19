@@ -1,7 +1,17 @@
+
 {
-  "version": "1.0",
-  "tarea": "generacion_reporte",
-  "template": "Con los datos proporcionados a continuación:\n{data}\nGenera un reporte claro, organizado y con recomendaciones basadas únicamente en los datos.",
-  "instrucciones": "No es necesario inventar o agregar información externa. Analiza solamente los datos entregados."
+"version": "1.0",
+"tarea": "Generar reporte de basado exclusivamente en los datos procesados del sistema",
+"template": "Con los datos proporcionados a continuación:\n{data}\n",
+"instrucciones": [
+"No es necesario inventar o agregar información externa.",
+"Solo analiza lo que está presente en los datos.",
+"Genera un reporte profesional con el siguiente formato:",
+"- Resumen ejecutivo",
+"- Indicadores sospechosos detectados",
+"- Posibles riesgos asociados",
+"- Recomendaciones para mitigar riesgos",
+"- Conclusión general"
+]
 }
 
