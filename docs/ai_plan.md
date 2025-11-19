@@ -1,5 +1,5 @@
 # Plan de uso de inteligencia artificial
-Este documento forma parte del tercer entregable del proyecto PIA. Describe cómo se integrará IA en el flujo técnico del proyecto, con fines éticos, funcionales y reproducibles.
+## Este documento forma parte del tercer entregable del proyecto. Explica cómo se integrará IA en el flujo del proyecto, con fines éticos y funcionales.
 ---
 ## Propósito del uso de IA
 La Inteligencia Artificial se utilizará en el proyecto con el propósito de generar un reporte final más claro, organizado y personalizado, basado en los resultados obtenidos por los módulos de análisis.
@@ -47,7 +47,21 @@ El prompt se utilizará para:
 - Mantener control sobre el tono, formato y alcance de la respuesta.
 
 Campos incluidos en /prompts/prompt_v1.json
-- version: número de versión del prompt.
-- tarea: propósito del uso del modelo.
-- template: estructura del mensaje que recibirá IA.
-- instrucciones: reglas que el modelo debe seguir al responder.
+"version": "1.0",
+"tarea": "generacion_reporte",
+"template": "Con los datos proporcionados a continuación:\n{data}\nGenera un reporte claro, organizado y con recomendaciones basadas únicamente en los datos.",
+"instrucciones": "No es necesario inventar o agregar información externa. Analiza solamente los datos entregados."
+
+## Consideraciones éticas
+Para garantizar uso responsable:
+- No se envía información personal, solo datos técnicos.
+- Toda salida generada por IA se revisará en la integracion de reportes.
+- El modelo no toma decisiones, solo redacta y organiza información existente.
+- Se documenta cada ejecución.
+
+## Observaciones
+El modelo puede cometer errores en caso de que el prompt esté mal definido.
+
+Si el análisis futuro detecta demasiados datos, se podrían implementar resúmenes mas compactos.
+
+Esta primera versión se buscó lograr la idea principal solicitada en el entregable, ademas de servir como base para la fase final que involucra principalmente la implementacion y generacion de reportes.
