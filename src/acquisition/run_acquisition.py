@@ -8,7 +8,7 @@ process_script = r"./get_processes.ps1"
 files_script = r"./get_files.ps1"
 
 # Carpeta de logs
-logs_dir = r"./logs"
+logs_dir = r"../../logs"
 if not os.path.exists(logs_dir):
     os.makedirs(logs_dir)
 
@@ -58,5 +58,6 @@ with open(log_file_path, "w", encoding="utf-8") as f:
         f.write(json.dumps(entry) + "\n")
 
 print(f"\nLog generado: {log_file_path}")
+
 
 
