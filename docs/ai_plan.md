@@ -1,23 +1,36 @@
-# Plan de uso de IA en el proyecto
+## Propósito del uso de IA
 
-La IA se utilizará al final del proceso de analisis, sería el punto donde se tienen los datos filtrados, logrando asi una mayor precision y no saturando a la inteligencia artificial con demasiados datos innecesarios. La idea es que la IA ayude a escribir un reporte más claro, personalizado y con recomendaciones basadas en lo que realmente encontró el sistema.
+La Inteligencia Artificial se utilizará en el proyecto con el propósito de generar un reporte final más claro, organizado y personalizado, basado en los resultados obtenidos por los módulos de análisis.
+Su función es:
 
-## ¿Para qué usamos la IA?
-Para convertir los datos crudos del análisis en un reporte entendible y con sugerencias útiles. No investiga nada por su cuenta, solo mejora y organiza lo que ya generaron los scripts.
+- Redactar un reporte entendible a partir de los datos procesados.
+- Resaltar anomalías encontradas.
+- Proporcionar recomendaciones simples basadas únicamente en los datos entregados.
 
-## ¿En qué parte del flujo entra la IA?
-Al final, después de:
+Atribuye una facilidad en cuanto a la interpretación del analisis final.
 
-1.⁠ ⁠Adquisición de datos (PowerShell)
+## Punto del flujo donde se integra la IA
 
-2.⁠ ⁠Análisis y comparación (Python)
+La IA se usa al final del pipeline, cuando ya se han completado los procesos técnicos:
+- Adquisición de datos mediante un script de PowerShell.
+- Análisis de hashes y procesos mediante scripts en Python.
+- Detección de anomalías y marcado de archivos o procesos sospechosos.
+- Generación del reporte con IA → (punto donde interviene la IA).
 
-3.⁠ ⁠`IA para generar el reporte final`
+El uso en esta etapa garantiza que la IA reciba únicamente los datos filtrados, limpios y relevantes. Esto evita saturación a causa de un exceso de datos compartidos.
 
-El objetivo es: datos → filtrado → IA → reporte listo para entregar.
+## Modelo/API utilizados
 
-## ¿Qué API/modelo usaremos?
-La API de OpenAI, usando un modelo de texto (en este caso se buscaría hacer uso de la version 3.5).  
+Se utilizará la API de OpenAI, empleando un modelo de generación de texto (GPT-3.5 en este caso).
 
-## Prompt base que usaremos
-Este es un ejemplo simple del prompt inicial que vamos a utilizar ⁠:
+## Ejemplo de prompt a utilizar:
+Con los datos que se comparten a continuación:
+
+{data}
+
+genera un reporte personalizado enfocado en:
+- detectar y explicar posibles anomalías (si las hay)
+- describir riesgos potenciales asociados a procesos o archivos
+- proporcionar recomendaciones básicas para mitigar problemas
+
+El reporte debe ser conciso y basado únicamente en los datos proporcionados. No es necesario agregar ningun tipo de información adicional.
