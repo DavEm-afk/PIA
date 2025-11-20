@@ -1,65 +1,72 @@
-# run_pipeline.ps1 
+# run_pipeline.ps1
 
-$timestamp = (Get-Date -Format "yyyy-MM-dd HH:mm:ss")
-if (!(Test-Path "logs")) { New-Item -ItemType Directory -Path "logs" | Out-Null }
-$logFile = "logs/run_$timestamp.log"
+$projectRoot = Split-Path $PSScriptRoot -Parent
+
+if (!(Test-Path "$projectRoot/logs")) {
+    New-Item -ItemType Directory -Path "$projectRoot/logs" | Out-Null
+}
+$timestamp = Get-Date -Format "yyyyMMdd_HHmmss"
+$logFile = "$projectRoot/logs/run_$timestamp.jsonl"
 
 
-Write-Host "--- Inicio de Pipeline ---" 
-"[INFO] [$(Get-Date)] Pipeline iniciado" | Add-Content $logFile  
+# Función para formato JSONL
+function Write-JsonLog {
+    param (
+        [string]$stage,
+        [string]$status,
+        [string]$message = ""
+    )
+    $entry = @{
+        timestamp = (Get-Date).ToString("o")   # ISO 8601
+        stage     = $stage
+        status    = $status
+        message   = $message
+    }
+    $json = $entry | ConvertTo-Json -Compress
+    Add-Content -Path $logFile -Value $json
+}
+
+
+Write-Host "--- Inicio de Pipeline ---"
+Write-JsonLog -stage "pipeline" -status "info" -message "Pipeline iniciado"
 
 try {
 
-    # --- 
-    # 1. Adquisición de datos 
-    
-    Write-Host "`n[1] Ejecutando adquisición..." 
-    "[INFO] [$(Get-Date)] Ejecutando adquisición" | Add-Content $logFile 
-    
-    # Llama a los scripts .ps1 para obtener informacion de archivos y procesos
-    Add-Content $logFile "`n- Salida run_acquisition.py"
-    $output1 = python3 "src/acquisition/run_acquisition.py" 2>&1 
-    $output1 | Add-Content $logFile  
-    
-    Add-Content $logFile "`n- get_network_info.py"
-    $output2 = python3 "src/acquisition/get_network_info.py" 2>&1
-    $output2 | Add-Content $logFile
+    # 1. Adquisición de datos
+    Write-Host "`n[1] Ejecutando adquisición..."
+    Write-JsonLog -stage "acquisition" -status "info" -message "Ejecutando adquisición"
+
+    $output1 = python "$projectRoot/src/acquisition/run_acquisition.py" 2>&1
+    Write-JsonLog -stage "acquisition" -status "info" -message "Salida run_acquisition.py: $output1"
+
+    $output2 = python "$projectRoot/src/acquisition/get_network_info.py" 2>&1
+    Write-JsonLog -stage "acquisition" -status "info" -message "Salida get_network_info.py: $output2"
 
 
-    # --- 
-    # 2. Análisis con Python 
-    
+    # 2. Análisis con Python
     Write-Host "`n[2] Ejecutando análisis..."
-    "[INFO] [$(Get-Date)] Ejecutando análisis con Python" | Add-Content $logFile 
-    
-    Add-Content $logFile "`n- Salida process_data.py"
-    $output3 = python3 "src/analysis/process_data.py" 2>&1 # Analisis/filtrado de datos 
-    $output3 | Add-Content $logFile
+    Write-JsonLog -stage "analysis" -status "info" -message "Ejecutando análisis con Python"
+
+    $output3 = python "$projectRoot/src/analysis/process_data.py" 2>&1
+    Write-JsonLog -stage "analysis" -status "info" -message "Salida process_data.py: $output3"
 
 
-    # --- 
-    # 3. Generación de reporte con IA 
-    
-    Write-Host "`n[3] Llamando al módulo de reporte con IA..." 
-    "[INFO] [$(Get-Date)] Generando reporte" | Add-Content $logFile 
-    
-    Add-Content $logFile "`n- Salida generate_report.py"
-    $output4 = python3 "src/reporting/generate_report.py" 2>&1 # Llamado de API y generacion de reporte 
-    $output4 | Add-Content $logFile
+    # 3. Generación de reporte con IA
+    Write-Host "`n[3] Llamando al módulo de reporte con IA..."
+    Write-JsonLog -stage "reporting" -status "info" -message "Generando reporte"
 
-    Write-Host "`nPipeline completado correctamente." 
-    "[OK] [$(Get-Date)] Pipeline terminado" | Add-Content $logFile  
-    
-} 
-    
-catch { 
+    $output4 = python "$projectRoot/src/reporting/generate_report.py" 2>&1
+    Write-JsonLog -stage "reporting" -status "info" -message "Salida generate_report.py: $output4"
 
-    Write-Host "`nERROR durante la ejecución del pipeline" -ForegroundColor Red 
+    Write-Host "`nPipeline completado correctamente."
+    Write-JsonLog -stage "pipeline" -status "ok" -message "Pipeline terminado"
+}
 
-    Add-Content $logFile "[ERROR] $(Get-Date) Error en pipeline"
-    Add-Content $logFile "Mensaje: $($_.Exception.Message)"
-    Add-Content $logFile "StackTrace: $($_.ScriptStackTrace)"
+catch {
+
+    Write-Host "`nERROR durante la ejecución del pipeline" -ForegroundColor Red
+    Write-JsonLog -stage "pipeline" -status "error" -message "Error en pipeline: $($_.Exception.Message)"
     
-} 
-    
+}
+
 Write-Host "`n--- Fin del Pipeline ---"
