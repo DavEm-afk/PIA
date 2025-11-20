@@ -43,7 +43,7 @@ Archivo de configuración del prompt:
 El prompt se utilizará para:
 
 - Entregar al modelo los datos filtrados del sistema.
-- Solicitar un reporte claro, profesional y con recomendaciones.
+- Solicitar un reporte claro, donde lo primordial sería: buscar recomendaciones.
 - Mantener control sobre el tono, formato y alcance de la respuesta.
 
 Campos incluidos en /prompts/prompt_v1.json
@@ -57,11 +57,9 @@ Para garantizar uso responsable:
 - No se envía información personal, solo datos técnicos.
 - Toda salida generada por IA se revisará en la integracion de reportes.
 - El modelo no toma decisiones, solo redacta y organiza información existente.
-- Se documenta cada ejecución.
+- Se documenta cada ejecución por medio de logs.
 
 ## Observaciones
-El modelo puede cometer errores en caso de que el prompt esté mal definido.
+Se necesita de una correcta definición del prompt.
 
-Si el análisis futuro detecta demasiados datos, se podrían implementar resúmenes mas compactos.
-
-Esta primera versión se buscó lograr la idea principal solicitada en el entregable, ademas de servir como base para la fase final que involucra principalmente la implementacion y generacion de reportes.
+Se debe de buscar hacer un análisis de datos lo suficientemente compactos.
