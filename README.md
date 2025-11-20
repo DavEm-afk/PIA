@@ -8,7 +8,8 @@ Flujo del proyecto: *Adquisición → Análisis/Comparación → Uso de IA → R
 
 ## Estado del proyecto
 
-•⁠  ⁠*Tarea 1 — Adquisición de procesos y archivos* - Completado 
+•⁠  ⁠*Tarea 1 — Adquisición de procesos y archivos* - Completado
+
   Scripts en ⁠ /src/acquisition/ ⁠ generan salidas en JSON dentro de ⁠ /src/acquisition/raw/ ⁠.
 
 •⁠  ⁠*Tarea 2 — Hashing y comparación de archivos* - Completado  
