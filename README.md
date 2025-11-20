@@ -30,6 +30,12 @@ Flujo del proyecto: *Adquisición → Análisis/Comparación → Uso de IA → R
 ---
 
 ## Estructura del repositorio
+•⁠  ⁠⁠ /scripts ⁠ → Pipeline de orquestación  
+•⁠  ⁠⁠ /logs ⁠ → Registros de ejecución  
+•⁠  ⁠⁠ /examples ⁠ → Ejemplos de salidas y logs  
+•⁠  ⁠⁠ /docs ⁠ → Documentación (plan de IA, entregables, controles éticos)  
+•⁠  ⁠⁠ /prompts ⁠ → Prompts iniciales para IA  
+•⁠  ⁠⁠ /tests ⁠ → Scripts de prueba
 •⁠  ⁠⁠ /src ⁠ → Código fuente principal  
   - ⁠ /acquisition ⁠ → Scripts de adquisición (⁠ get_files.ps1 ⁠, ⁠ get_processes.ps1 ⁠, ⁠ get_network_info.py ⁠, ⁠ run_acquisition.py ⁠)  
   - ⁠ /acquisition/raw ⁠ → Salidas en crudo (JSON)  
@@ -41,12 +47,6 @@ Flujo del proyecto: *Adquisición → Análisis/Comparación → Uso de IA → R
   - ⁠ /integration ⁠ → Módulos de integración (pendiente)  
   - ⁠ /reporting ⁠ → Módulos de reporte con IA (pendiente)  
   - ⁠ /utils ⁠ → Utilidades (pendiente)
-•⁠  ⁠⁠ /scripts ⁠ → Pipeline de orquestación  
-•⁠  ⁠⁠ /logs ⁠ → Registros de ejecución  
-•⁠  ⁠⁠ /examples ⁠ → Ejemplos de salidas y logs  
-•⁠  ⁠⁠ /docs ⁠ → Documentación (plan de IA, entregables, controles éticos)  
-•⁠  ⁠⁠ /prompts ⁠ → Prompts iniciales para IA  
-•⁠  ⁠⁠ /tests ⁠ → Scripts de prueba
 
 ---
 
