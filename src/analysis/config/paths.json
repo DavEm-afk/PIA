@@ -1,7 +1,6 @@
-
 {
-  "processes": "../../acquisition/raw/process_list.json",
-  "files": "../../acquisition/raw/files_list.json",
-  "connections": "../../acquisition/raw/net_connections.json",
-  "process_network": "../../acquisition/raw/process_network.json"
+  "processes": "../acquisition/raw/process_list.json",
+  "files": "../acquisition/raw/files_list.json",
+  "connections": "../acquisition/raw/net_connections.json",
+  "process_network": "../acquisition/raw/process_network.json"
 }
