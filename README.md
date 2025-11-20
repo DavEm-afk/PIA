@@ -36,6 +36,7 @@ Flujo del proyecto: *Adquisición → Análisis/Comparación → Uso de IA → R
 •⁠  ⁠⁠ /docs ⁠ → Documentación (plan de IA, entregables, controles éticos)  
 •⁠  ⁠⁠ /prompts ⁠ → Prompts iniciales para IA  
 •⁠  ⁠⁠ /tests ⁠ → Scripts de prueba
+
 •⁠  ⁠⁠ /src ⁠ → Código fuente principal  
   - ⁠ /acquisition ⁠ → Scripts de adquisición (⁠ get_files.ps1 ⁠, ⁠ get_processes.ps1 ⁠, ⁠ get_network_info.py ⁠, ⁠ run_acquisition.py ⁠)  
   - ⁠ /acquisition/raw ⁠ → Salidas en crudo (JSON)  
