@@ -2,13 +2,20 @@ import json
 import os
 import datetime
 import logging
-from src.analysis.process_network_analysis import perform_network_analysis
-from src.analysis.hash_analysis import analyze_file_hashes
-from src.analysis.filter_suspicious import filter_suspicious
+from process_network_analysis import perform_network_analysis
+from hash_analysis import analyze_file_hashes
+from filter_suspicious import filter_suspicious
+
+# Ajuste mínimo: definir BASE_DIR y carpetas
+BASE_DIR = os.path.dirname(__file__)          # /src/analysis
+ACQ_DIR = os.path.join(BASE_DIR, "../acquisition/raw")
+CONFIG_DIR = os.path.join(BASE_DIR, "config")
+OUTPUT_DIR = os.path.join(BASE_DIR, "output")
+LOG_DIR = os.path.join(BASE_DIR, "../../logs")
 
 # Configuración de logs 
-os.makedirs("../../logs", exist_ok=True)
-log_file = f"../../logs/analysis_{datetime.datetime.now():%Y%m%d_%H%M%S}.jsonl"
+os.makedirs(LOG_DIR, exist_ok=True)
+log_file = os.path.join(LOG_DIR, f"analysis_{datetime.datetime.now():%Y%m%d_%H%M%S}.jsonl")
 logging.basicConfig(filename=log_file, level=logging.INFO, format='%(message)s')
 
 # Gestion de errores al cargar archivos
@@ -21,20 +28,19 @@ def load_json(path):
         return {}
 
 # Cargar configuraciones de /config
-config_paths = load_json("./config/paths.json")
-priorities = load_json("./config/priorities.json")
+config_paths = load_json(os.path.join(CONFIG_DIR, "paths.json"))
+priorities = load_json(os.path.join(CONFIG_DIR, "priorities.json"))
 
 # Variables a usar de priorities
 suspicious_ports = priorities.get("suspicious_ports", [])
 internal_ranges = priorities.get("internal_ip_ranges", [])
 
-# Cargar datos de /acquisition
-processes = load_json(config_paths.get("processes", "")) or {}
-files = load_json(config_paths.get("files", "")) or {}
-network = load_json(config_paths.get("connections", "")) or {}
+# Cargar datos de /acquisition/raw
+processes = load_json(os.path.join(ACQ_DIR, "process_list.json")) or {}
+files = load_json(os.path.join(ACQ_DIR, "files_list.json")) or {}
+network = load_json(os.path.join(ACQ_DIR, "net_connections.json")) or {}
 
 # Filtrar datos relevantes 
-# Procesos importantes por nombre o ruta
 high_priority = [p.lower() for p in priorities.get("high_priority_processes", [])]
 ignore_list = [p.lower() for p in priorities.get("ignore_processes", [])]
 
@@ -44,7 +50,6 @@ for p in processes.get("Procesos", []):
     if nombre in high_priority and nombre not in ignore_list:
         important_procs.append(p)
 
-# Archivos grandes o prioritarios
 suspicious_ext = [e.lower() for e in priorities.get("suspicious_extensions", [])]
 sensitive_paths = [p.lower() for p in priorities.get("sensitive_paths", [])]
 
@@ -62,7 +67,6 @@ for proc in important_procs:
         raddr = conn.get("raddr")
         port = int(raddr.split(":")[1]) if raddr else None
         conn["Sospechosa"] = (port in suspicious_ports) if port else False
-        # Identificar si la IP remota está fuera de rangos internos
         if raddr:
             conn_ip = raddr.split(":")[0]
             conn["Externa"] = not any(conn_ip.startswith(ir) for ir in internal_ranges)
@@ -80,34 +84,34 @@ summary = {
 
 # Integracion de analisis de red
 network_result = perform_network_analysis(
-    net_file=config_paths.get("connections", ""),
-    process_file=config_paths.get("processes", ""),
-    config_dir="./config"
+    net_file=os.path.join(ACQ_DIR, "net_connections.json"),
+    process_file=os.path.join(ACQ_DIR, "process_list.json"),
+    config_dir=CONFIG_DIR
 )
 summary.update(network_result)
 
-#Integracion de analisis de hashes
+# Integracion de analisis de hashes
 hash_result = analyze_file_hashes(
     files_list=files.get("Archivos", []),
-    blacklist_path="./config/hash_blacklist.json"
+    blacklist_path=os.path.join(CONFIG_DIR, "hash_blacklist.json")
 )
 summary.update({"AnalisisHashes": hash_result})
 
 # Guardado
-os.makedirs("./output", exist_ok=True)
-output_path = "./output/filtered_summary.json"
+os.makedirs(OUTPUT_DIR, exist_ok=True)
+output_path = os.path.join(OUTPUT_DIR, "filtered_summary.json")
 with open(output_path, "w", encoding="utf-8") as f:
     json.dump(summary, f, indent=4, ensure_ascii=False)
 
 logging.info(json.dumps({
     "status": "OK",
-    "message": f"Análisis completado correctamente. Resultado guardado en {output_path}"
+    "message": f"Analisis completado correctamente. Resultado guardado en {output_path}"
 }))
 
-# Crear resumen con informacion sospechosa
+# Crear resumen compacto
 filter_suspicious(
-    summary_path="./output/filtered_summary.json",
-    output_path="./output/suspicious_only.json"
+    summary_path=output_path,
+    output_path=os.path.join(OUTPUT_DIR, "suspicious_only.json")
 )
 
 print(f"Análisis completado. Resultados en: {output_path}")
