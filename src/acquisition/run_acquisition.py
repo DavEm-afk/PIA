@@ -3,18 +3,20 @@ import json
 import os
 from datetime import datetime
 
-# Rutas de los scripts
-process_script = r"./get_processes.ps1"
-files_script = r"./get_files.ps1"
+# Carpeta base: /src/acquisition
+BASE_DIR = os.path.dirname(__file__)
 
-# Carpeta de logs
-logs_dir = r"../../logs"
-if not os.path.exists(logs_dir):
-    os.makedirs(logs_dir)
+# Rutas de los scripts PowerShell
+process_script = os.path.join(BASE_DIR, "get_processes.ps1")
+files_script = os.path.join(BASE_DIR, "get_files.ps1")
+
+# Carpeta de logs (en la raíz del proyecto)
+LOG_DIR = os.path.abspath(os.path.join(BASE_DIR, "../../logs"))
+os.makedirs(LOG_DIR, exist_ok=True)
 
 # Nombre del archivo de log con timestamp
 timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-log_file_path = os.path.join(logs_dir, f"acquisition_{timestamp}.jsonl")
+log_file_path = os.path.join(LOG_DIR, f"acquisition_{timestamp}.jsonl")
 
 def run_powershell(script_path):
     log_entry = {
@@ -58,6 +60,3 @@ with open(log_file_path, "w", encoding="utf-8") as f:
         f.write(json.dumps(entry) + "\n")
 
 print(f"\nLog generado: {log_file_path}")
-
-
-
