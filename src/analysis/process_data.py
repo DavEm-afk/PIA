@@ -7,8 +7,8 @@ from src.analysis.hash_analysis import analyze_file_hashes
 from src.analysis.filter_suspicious import filter_suspicious
 
 # Configuración de logs 
-os.makedirs("./logs", exist_ok=True)
-log_file = f"./logs/analysis_{datetime.datetime.now():%Y%m%d_%H%M%S}.jsonl"
+os.makedirs("../../logs", exist_ok=True)
+log_file = f"../../logs/analysis_{datetime.datetime.now():%Y%m%d_%H%M%S}.jsonl"
 logging.basicConfig(filename=log_file, level=logging.INFO, format='%(message)s')
 
 # Gestion de errores al cargar archivos
@@ -21,8 +21,8 @@ def load_json(path):
         return {}
 
 # Cargar configuraciones de /config
-config_paths = load_json("./src/analysis/config/paths.json")
-priorities = load_json("./src/analysis/config/priorities.json")
+config_paths = load_json("./config/paths.json")
+priorities = load_json("./config/priorities.json")
 
 # Variables a usar de priorities
 suspicious_ports = priorities.get("suspicious_ports", [])
@@ -82,14 +82,14 @@ summary = {
 network_result = perform_network_analysis(
     net_file=config_paths.get("connections", ""),
     process_file=config_paths.get("processes", ""),
-    config_dir="./src/analysis/config"
+    config_dir="./config"
 )
 summary.update(network_result)
 
 #Integracion de analisis de hashes
 hash_result = analyze_file_hashes(
     files_list=files.get("Archivos", []),
-    blacklist_path="./src/analysis/config/hash_blacklist.json"
+    blacklist_path="./config/hash_blacklist.json"
 )
 summary.update({"AnalisisHashes": hash_result})
 
