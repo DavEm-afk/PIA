@@ -16,6 +16,7 @@ El proyecto avanzó en comparación al entregable 2. Todas las tareas técnicas 
 
 Además, se desarrolló el **pipeline de orquestación (`/scripts/run_pipeline.ps1`)**, que integra todas las etapas del proyecto (adquisición, análisis y reporte).  
 El pipeline genera logs estructurados en `/logs/` y captura tanto ejecuciones correctas como errores.
+(Se modificó el tipo de salida de archivo del log generado por el pipeline de .log a .jsonl).
 
 ## Pendiente
 La etapa de generación de reportes con IA aún está por terminar.  
