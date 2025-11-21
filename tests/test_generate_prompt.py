@@ -2,10 +2,10 @@ import os
 import json
 
 # Rutas base
-BASE_DIR = os.path.dirname(os.path.dirname(__file__))
+BASE_DIR = os.path.dirname(__file__)
 
-suspicious_file = os.path.join(BASE_DIR, "analysis", "output", "suspicious_only.json")
-prompt_file = os.path.join(BASE_DIR, "prompts", "prompt_v2.json")
+suspicious_file = os.path.join(BASE_DIR, "../src/analysis/output/suspicious_only.json")
+prompt_file = os.path.join(BASE_DIR, "../prompts/prompt_v2.json")
 
 
 with open(suspicious_file, "r", encoding="utf-8") as f:
