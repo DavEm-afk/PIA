@@ -1,26 +1,27 @@
 [INFO] [11/19/2025 19:23:00] Pipeline iniciado
-[INFO] [11/19/2025 19:23:00] Ejecutando adquisición
+[INFO] [11/19/2025 19:23:00] Ejecutando adquisiciÃ³n
 
 - Salida run_acquisition.py
-=== Ejecuci�n de scripts PowerShell ===
-Ejecuci�n exitosa: get_processes.ps1
-Archivo generado: C:\Users\Vohiy\OneDrive\Documents\Esc\Scripts y asi ( PC )\Proyectos\PIA_pc\PIA\src\acquisition\raw\process_list.json
+=== Ejecuci¾n de scripts PowerShell ===
+Ejecuci¾n exitosa: get_processes.ps1
+Archivo generado: ---\PIA\src\acquisition\raw\process_list.json
 
-Ejecuci�n exitosa: get_files.ps1
-Archivo generado: C:\Users\Vohiy\OneDrive\Documents\Esc\Scripts y asi ( PC )\Proyectos\PIA_pc\PIA\src\acquisition\raw\files_list.json
+Ejecuci¾n exitosa: get_files.ps1
+Archivo generado: ---\PIA\src\acquisition\raw\files_list.json
 
 
-Log generado: C:\Users\Vohiy\OneDrive\Documents\Esc\Scripts y asi ( PC )\Proyectos\PIA_pc\PIA\logs\acquisition_20251119_192300.jsonl
+Log generado: ---\PIA\logs\acquisition_20251119_192300.jsonl
 
 - get_network_info.py
-[INFO] [11/19/2025 19:25:06] Ejecutando análisis con Python
+[INFO] [11/19/2025 19:25:06] Ejecutando anÃ¡lisis con Python
 
 - Salida process_data.py
-Resumen de informacion sospechosa generado en: C:\Users\Vohiy\OneDrive\Documents\Esc\Scripts y asi ( PC )\Proyectos\PIA_pc\PIA/src/analysis\output\suspicious_only.json
-An�lisis completado. Resultados en: C:\Users\Vohiy\OneDrive\Documents\Esc\Scripts y asi ( PC )\Proyectos\PIA_pc\PIA/src/analysis\output\filtered_summary.json
-Log generado en: C:\Users\Vohiy\OneDrive\Documents\Esc\Scripts y asi ( PC )\Proyectos\PIA_pc\PIA/src/analysis\../../logs\analysis_20251119_192506.jsonl
+Resumen de informacion sospechosa generado en: ---\PIA/src/analysis\output\suspicious_only.json
+Anßlisis completado. Resultados en: ---\PIA/src/analysis\output\filtered_summary.json
+Log generado en: ---\PIA/src/analysis\../../logs\analysis_20251119_192506.jsonl
 [INFO] [11/19/2025 19:25:06] Generando reporte
 
 - Salida generate_report.py
-C:\Users\Vohiy\AppData\Local\Programs\Python\Python313\python.exe: can't open file 'C:\\Users\\Vohiy\\OneDrive\\Documents\\Esc\\Scripts y asi ( PC )\\Proyectos\\PIA_pc\\PIA/src/reporting/generate_report.py': [Errno 2] No such file or directory
+---\AppData\Local\Programs\Python\Python313\python.exe: can't open file '---\\PIA/src/reporting/generate_report.py': [Errno 2] No such file or directory
 [OK] [11/19/2025 19:25:07] Pipeline terminado
+
