@@ -74,12 +74,11 @@ pwsh run_pipeline.ps1`
 ## Ejemplos de salida
 `findings.csv`
 
-Siempre contiene el encabezado category,detail.
+- Siempre contiene el encabezado category,detail.
 
-Si no hay hallazgos, queda vacío salvo el encabezado (ejemplo: category,detail).
+- Si no hay hallazgos, queda vacío salvo el encabezado (ejemplo: category,detail).
 
-Si hay hallazgos, se agregan filas como:
-
+- Si hay hallazgos, se agregan filas como:
 csv
 category,detail
 process,SuspiciousProcess.exe (PID 1234)
@@ -88,11 +87,9 @@ network,Connection to 192.168.1.50:4444
 
 `executive_summary.md`
 
-Con API key definida → contiene un resumen redactado por IA.
+- Con API key definida → contiene un resumen redactado por IA.
 
-Sin API key → muestra un error controlado:
-
-Código
+- Sin API key → muestra un error controlado:
 [ERROR] No se encontró la API key. Configure OPENAI_API_KEY en el entorno.
 
 ---
