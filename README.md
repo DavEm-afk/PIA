@@ -72,7 +72,7 @@ pwsh run_pipeline.ps1`
 ---
 
 ## Ejemplos de salida
-- findings.csv
+`findings.csv`
 
 Siempre contiene el encabezado category,detail.
 
@@ -86,7 +86,7 @@ process,SuspiciousProcess.exe (PID 1234)
 file,C:\Temp\malware_sample.exe
 network,Connection to 192.168.1.50:4444
 
-- executive_summary.md
+`executive_summary.md`
 
 Con API key definida → contiene un resumen redactado por IA.
 
@@ -106,5 +106,3 @@ Reporte con IA - Implementado con manejo de errores
 
 Pipeline - Funcional y reproducible
 
-📷 Evidencia
-Ejemplos de salidas y logs en /examples
