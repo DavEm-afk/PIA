@@ -61,13 +61,13 @@ pwsh run_pipeline.ps1`
 
 /src → Código fuente
 
-  acquisition/ → Scripts de adquisición
+  - acquisition/ → Scripts de adquisición
 
-  analysis/ → Procesamiento y filtrado
+  - analysis/ → Procesamiento y filtrado
 
-  integration/ → Cliente IA (ai_client.py)
+  - integration/ → Cliente IA (ai_client.py)
 
-  reporting/ → Generación de reportes (generate_report.py)
+  - reporting/ → Generación de reportes (generate_report.py)
 
 ---
 
