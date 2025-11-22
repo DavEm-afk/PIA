@@ -39,9 +39,8 @@ Instalar dependencias:
 
 `pip install -r requirements.txt`
 
-Ejecución 
+Ejecución:
 
-powershell
 `cd scripts
 pwsh run_pipeline.ps1`
 
