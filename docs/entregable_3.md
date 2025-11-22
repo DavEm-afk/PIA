@@ -23,6 +23,3 @@ La etapa de generación de reportes con IA aún está por terminar.
 En la evidencia de ejecución, el pipeline intenta invocar `src/reporting/generate_report.py`, pero al no existir, se registra un error en el log.  
 Se decidió dejar esto de manera intencional, funcionando asi como evidencia para demostrar la generación de logs implementada en `run_pipeline.ps1`.
 
-## Próximos pasos
-- Implementar el módulo de IA para generación de reportes.  
-- Mejorar logs y agregar las validaciones necesarias.  
