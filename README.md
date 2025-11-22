@@ -1,8 +1,8 @@
-#Sistema de Análisis Forense Automatizado en Windows
+# Sistema de Análisis Forense Automatizado en Windows
 
 ---
 
-##Objetivo del proyecto
+## Objetivo del proyecto
 Este proyecto implementa un flujo automatizado para la adquisición, análisis y documentación de elementos relevantes en Windows. Se combinan tres componentes principales:
 
 Scripts de PowerShell: obtienen datos de procesos y archivos.
