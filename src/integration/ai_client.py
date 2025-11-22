@@ -2,7 +2,7 @@ import os
 import openai
 import json
 
-def call_ai(suspicious_file: str, prompt_file: str) -> str:
+def call_ai(suspicious_file: str, prompt_file: str):
 
     # Cargar datos sospechosos
     with open(suspicious_file, "r", encoding="utf-8") as f:
