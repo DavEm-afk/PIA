@@ -2,12 +2,12 @@ import json
 import os
 import datetime
 import logging
-from process_network_analysis import perform_network_analysis
-from hash_analysis import analyze_file_hashes
-from filter_suspicious import filter_suspicious
+from src.analysis.process_network_analysis import perform_network_analysis
+from src.analysis.hash_analysis import analyze_file_hashes
+from src.analysis.filter_suspicious import filter_suspicious
 
-# Ajuste mínimo: definir BASE_DIR y carpetas
-BASE_DIR = os.path.dirname(__file__)          # /src/analysis
+# Definir BASE_DIR y carpetas
+BASE_DIR = os.path.dirname(__file__)        
 ACQ_DIR = os.path.join(BASE_DIR, "../acquisition/raw")
 CONFIG_DIR = os.path.join(BASE_DIR, "config")
 OUTPUT_DIR = os.path.join(BASE_DIR, "output")
