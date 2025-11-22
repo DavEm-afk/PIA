@@ -35,10 +35,11 @@ Es importante asegurarse de que se incluyen las carpetas principales:
 - /scripts → incluye el script de orquestación (run_pipeline.ps1) que ejecuta todo el flujo.
 - /prompts → almacena las plantillas necesarias para la etapa de IA 
 
-Instalar dependencias
+Instalar dependencias: 
+
 `pip install -r requirements.txt`
 
-Ejecución: 
+Ejecución 
 
 powershell
 `cd scripts
