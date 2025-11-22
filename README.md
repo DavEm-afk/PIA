@@ -79,10 +79,11 @@ pwsh run_pipeline.ps1`
 - Si no hay hallazgos, queda vacío salvo el encabezado (ejemplo: category,detail).
 
 - Si hay hallazgos, se agregan filas como:
+
 csv
-category,detail
-process,SuspiciousProcess.exe (PID 1234)
-file,C:\Temp\malware_sample.exe
+category,detail, 
+process,SuspiciousProcess.exe (PID 1234), 
+file,C:\Temp\malware_sample.exe, 
 network,Connection to 192.168.1.50:4444
 
 `executive_summary.md`
@@ -90,6 +91,7 @@ network,Connection to 192.168.1.50:4444
 - Con API key definida → contiene un resumen redactado por IA.
 
 - Sin API key → muestra un error controlado:
+- 
 [ERROR] No se encontró la API key. Configure OPENAI_API_KEY en el entorno.
 
 ---
