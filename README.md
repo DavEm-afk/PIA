@@ -134,6 +134,7 @@ El uso de credenciales, como la *API key* de la librerÃ­a de OpenAI, se gestionÃ
 
 ## Enlaces internos a entregables (docs)
 
+- [Entregable 2](./docs/entregable_2.md)
 - [Entregable 3](./docs/entregable_3.md)  
 - [Entregable 4](./docs/entregable_4.md)  
 - [Plan de IA](./docs/ai_plan.md)  
