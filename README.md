@@ -1,6 +1,6 @@
 # Sistema de Análisis Forense Automatizado en Windows
 
----
+
 
 ## Objetivo del proyecto
 Este proyecto implementa un flujo automatizado para la adquisición, análisis y documentación de elementos relevantes en Windows. Se combinan tres componentes principales:
@@ -15,7 +15,7 @@ El flujo completo es: Adquisición → Análisis → Implementacion de IA → Ev
 
 ---
 
-## Requisitos previos
+### Requisitos previos
 - Python 3.10+
 
 - Librerías: pandas, openai, psutil
@@ -26,7 +26,7 @@ El flujo completo es: Adquisición → Análisis → Implementacion de IA → Ev
 
 ---
 
-## Ejecución del pipeline
+### Ejecución del pipeline
 Clonar el repositorio.
 
 Es importante asegurarse de que se incluyen las carpetas principales:
@@ -43,6 +43,22 @@ Ejecución:
 
 `cd scripts
 pwsh run_pipeline.ps1`
+
+---
+
+## Integrantes y roles
+
+- **David Emiliano Rangel Tovar**  
+  Responsable de la **adquisición y análisis**.  
+  - Implementó los scripts de PowerShell y módulos en Python para la recolección de datos.  
+  - Desarrolló el procesamiento y filtrado de la información en `/src/analysis`.  
+  - Ejecutó pruebas de funcionamiento del pipeline y documentó evidencias en `/examples` y `/logs`.
+
+- **Marcelo Hernández Chávez**  
+  Responsable de la **integración de IA y generación de reportes**.  
+  - Implementó los módulos de integración con OpenAI API en `/src/integration`.  
+  - Diseñó los prompts en `/prompts` y desarrolló el flujo de generación de reportes en `/src/reporting`.  
+  - Colaboró en la documentación del proyecto.
 
 ---
 
@@ -71,7 +87,7 @@ pwsh run_pipeline.ps1`
 
 ---
 
-## Ejemplos de salida
+### Ejemplos de salida
 `findings.csv`
 
 - Siempre contiene el encabezado category,detail.
@@ -104,4 +120,23 @@ Análisis - Completado
 Reporte con IA - Implementado con manejo de errores
 
 Pipeline - Funcional y reproducible
+
+---
+
+## Declaración ética
+
+Este proyecto fue desarrollado exclusivamente con fines académicos.  
+Todas las pruebas se realizaron en entornos con datos sintéticos o equipos autorizados por sus propietarios.  
+En ningún momento se expusieron credenciales reales ni información personal; los datos recolectados se limitaron a procesos y rutas de archivos pertenecientes al sistema bajo análisis.  
+El uso de credenciales, como la *API key* de la librería de OpenAI, se gestionó mediante variables de entorno.  
+
+---
+
+## Enlaces internos a entregables (docs)
+
+- [Entregable 3](./docs/entregable_3.md)  
+- [Entregable 4](./docs/entregable_4.md)  
+- [Plan de IA](./docs/ai_plan.md)  
+- [Reporte final](./docs/reporte_final.md)
+
 
