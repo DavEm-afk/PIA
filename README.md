@@ -18,7 +18,7 @@ El flujo completo es: Adquisición → Análisis → Implementacion de IA → Ev
 ## Requisitos previos
 - Python 3.10+
 
-- Librerías: pandas, openai, piexif, PIL
+- Librerías: pandas, openai, psutil
 
 - PowerShell habilitado en Windows
 
