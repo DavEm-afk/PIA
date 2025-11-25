@@ -91,7 +91,7 @@ network,Connection to 192.168.1.50:4444
 - Con API key definida → contiene un resumen redactado por IA.
 
 - Sin API key → muestra un error controlado:
-- 
+ 
 [ERROR] No se encontró la API key. Configure OPENAI_API_KEY en el entorno.
 
 ---
