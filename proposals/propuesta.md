@@ -195,14 +195,9 @@ Estructura del repositorio:
 **Python**  
 - Python 3.10+  
 - Dependencias sugeridas: `pandas`, `requests`, `openai`, `python-dotenv`, `tenacity`, `psutil`, `hashlib` (builtin)  
-- Packaging: PyInstaller o herramienta similar para generar ejecutable del componente principal.
+- Packaging: PyInstaller
 
 **PowerShell**  
 - PowerShell 5+ / PowerShell Core en Windows  
 - No se requieren módulos externos obligatorios.
-
-**Otras notas**  
-- Variable de entorno obligatoria: `OPENAI_API_KEY`  
-- Implementar retries y backoff en `/src/integration/orchestration.py` para llamadas a la API de OpenAI.  
-- Guardar prompts en `/prompts` y versionarlos.
 
