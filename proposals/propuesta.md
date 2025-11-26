@@ -121,7 +121,7 @@ Enumerar todos los procesos con psutil.process_iter() y recopilar metadatos bás
 
 ---
 
-## 5. Estructura inicial del repositorio
+## Estructura inicial del repositorio
 Estructura del repositorio:
 - /src
   - /acquisition
